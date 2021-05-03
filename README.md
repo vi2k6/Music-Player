@@ -57,3 +57,8 @@ License -> https://github.com/TG-Bot-Devs/TG-Bot-Devs/blob/main/LICENSE
   <a href="https://heroku.com/deploy/">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
+
+### Session String
+Different ways to get your `SESSION`:
+* [![Run on Repl.it](https://replit.com/@SpEcHiDe/GenerateStringSession)]
+
