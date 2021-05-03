@@ -60,5 +60,5 @@ License -> https://github.com/TG-Bot-Devs/TG-Bot-Devs/blob/main/LICENSE
 
 ### Session String
 Different ways to get your `SESSION`:
-* [![Run on Repl.it](https://replit.com/@SpEcHiDe/GenerateStringSession)]
+[![Run on Repl.it](https://replit.com/@SpEcHiDe/GenerateStringSession)]
 
