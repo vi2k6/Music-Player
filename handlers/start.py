@@ -1,21 +1,3 @@
-# Daisyxmusic (Telegram bot project )
-# Copyright (C) 2021  Inukaasith 
-
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as
-# published by the Free Software Foundation, either version 3 of the
-# License, or (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-#
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-
-
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -26,17 +8,14 @@ from config import BOT_NAME as bn
 
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
-    await message.reply_text(
-        f"""Hello 👋🏻 there! I can play music in voice chats of Telegeam Groups. I have a lot of cool feature that will amaze you!""",
+    await message.reply_text.format(update.from_user.first_name)(
+        f"""**Hello 👋🏻 {}!\n\nI can play music in voice chats of Telegram Groups.\n\nI have a lot of cool feature that will amaze You!\n\nJoin [Updates Channel](https://t.me/GroupMusicNews) To Get Latest Updates**""",
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/TG_GroupMusicBot?startgroup=true")
             ],[
             InlineKeyboardButton("💬 Group", url="https://t.me/"),
             InlineKeyboardButton("Channel 📣", url="https://t.me/GROUPMUSICNEWS")
-            ],[
-            InlineKeyboardButton("🎛 Commands", url="https://t.me/"),
-            InlineKeyboardButton("About👨🏻‍🎓", url="https://t.me/")
             ],[
             InlineKeyboardButton("🌐 Website 🌐", url="https://t.ME/")
             ]]
@@ -46,7 +25,7 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**🔴 Music player is online**""",
+      await message.reply_text("""**Music player is online ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
