@@ -54,7 +54,7 @@ License -> https://github.com/TG-Bot-Devs/TG-Bot-Devs/blob/main/LICENSE
 ### Deploy To Heroku</h4>
 
 <p align="left">
-  <a href="https://heroku.com/deploy/">
+  <a href="https://heroku.com/deploy?template=https://github.com/TG-Musics/TG-Music">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
