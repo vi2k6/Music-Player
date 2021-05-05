@@ -1,21 +1,3 @@
-# Daisyxmusic (Telegram bot project)
-# Copyright (C) 2021  Inukaasith 
-
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as
-# published by the Free Software Foundation, either version 3 of the
-# License, or (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-#
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-
-
 from os import path
 from typing import Dict
 from pyrogram import Client
@@ -551,7 +533,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {} via DaisyXmusic 😜".format(
+        caption="▶️ **Playing** here the song requested by {} via {bn} 😜".format(
         message.from_user.mention()
         ),
     )
@@ -732,7 +714,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @DaisyXmusic to your Group and try again</b>",
+                                  "\n\nOr manually add @MusicHelper to your Group and try again</b>",
                               )
                               pass
     try:
@@ -748,7 +730,7 @@ async def jiosaavn(client: Client, message_: Message):
     text = message_.text.split(" ", 1)
     query = text[1]
     res = lel
-    await res.edit(f"Searching 👀👀👀 for `{query}` on jio saavn")
+    await res.edit(f"Searching for `{query}` on jio saavn")
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(
@@ -776,7 +758,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="Join Updates Channel",
-                   url='https://t.me/daisyxupdates')
+                   url='https://t.me/GroupMusicNewS')
              ],
              [       
                InlineKeyboardButton(
@@ -800,12 +782,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯DaisyXmusic✯=#️⃣ Queued at position {position}",
+            caption=f"#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✯DaisyXmusic✯=▶️ Playing.....")
+        await res.edit_text("▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
