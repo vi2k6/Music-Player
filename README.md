@@ -1,14 +1,16 @@
-<h1 align="centre">DAISYXMUSIC V3 🎵</h1>
+### TG Music Bot
 
-### A bot that can play music on telegram group's voice call
+##### A bot that can play music on telegram group's voice call
 
-# Available on telegram as @DaisyXbot
-
-<p align="center">
-  <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
-</p>
-
-<h2> Whats new 🔥 </h2>
+```
+Scrapped some code from @Infinity-Bots's Repository
+Please fork this repository don't import code
+Made with Python3
+(C) @TG-Bot-Devs
+Copyright permission under GNU General Public License v3.0
+License -> https://github.com/TG-Bot-Devs/TG-Bot-Devs/blob/main/LICENSE
+```
+### Features
 
 - Thumbnail Support
 - Playlist Support
@@ -20,9 +22,14 @@
 - Control with buttons
 - Userbot auto join
 
-### Commands 🛠
-#### For all in group
+<h3>Requirements 📝</h3>
 
+- FFmpeg
+- NodeJS [nodesource.com](https://nodesource.com/)
+- Python 3.7+
+- [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
+
+### Commands 🛠
 - `/play <song name>` - play song you requested
 - `/dplay <song name>` - play song you requested via deezer
 - `/splay <song name>` - play song you requested via jio saavn
@@ -42,23 +49,15 @@
 - `/end` - stop music play
 - `/userbotjoin` - invite assistant to your chat
 - `/userbotleave` - remove assistant from your chat
-- `/admincache` - Refresh admin list
-
+- `/reload` - Refresh admin list
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/teamdaisyx/DaisyXMusic)
+<p align="left">
+  <a href="https://heroku.com/deploy/">
+     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
+  </a>
 
-Use [@DaisyXStringGeneratorBot](https://t.me/DaisyXStringGeneratorBot) to get pyrogram string session or [repl](https://repl.it/@SpEcHiDe/GenerateStringSession)
-
-### Credits
-- [InukaASiTH](https://github.com/InukaAsith): Dev
-- [Wrench](https://github.com/EverythingSuckz/): Dev
-- [QueenArzoo](https://github.com/QueenArzoo): Dev
-- [lucifeermorningstar](https://github.com/lucifeermorningstar): Dev
-- [AuraXNetwork](https://github.com/AuraXNetwork/AuraXMusicBot)
-- [Hamker Cat](https://github.com/thehamkercat/)
-- [Anjana-Ma](https://github.com/Anjana-Ma): 
-- [ImJanindu](https://github.com/ImJanindu): 
-- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-- [Original Repo owners](https://github.com/suprojects/CallsMusic)
+### Session String
+Different ways to get your `SESSION`:
+[![Run on Repl.it](https://replit.com/@SpEcHiDe/GenerateStringSession)]
