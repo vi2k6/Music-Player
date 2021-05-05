@@ -27,23 +27,21 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""Hello 👋 there! I can play music in voice chats of Telegeam Groups. I have a lot of cool feature that will amaze you!\n\n🔴 Do you want me to play music in your Telegram groups'voice chats? Please click the \'📜 User Manual 📜\' button below to know how you can use me.\n\n🔴 The Assistant must be in your group to play music in the voice chat of your group.\n\n🔴 More info & commands mentioned in the [User Manual](https://telegra.ph/Daisy-X-04-19)\n\nA project by @TeamDaisyX""",
+        f"""Hello 👋🏻 there! I can play music in voice chats of Telegeam Groups. I have a lot of cool feature that will amaze you!""",
         reply_markup=InlineKeyboardMarkup(
-            [ 
-                [
-                    InlineKeyboardButton(
-                        "📜 User Manual 📜", url="https://telegra.ph/Daisy-X-04-19")
-                  ],[
-                    InlineKeyboardButton(
-                        "👨‍💻 Updates 👨‍💻", url="https://t.me/daisyxupdates"
-                    )
-                ],[ 
-                    InlineKeyboardButton(
-                        "Support Chat 🎙️", url="https://t.me/DaisySupport_Official"
-                    )]
-            ]
+            [[
+            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/TG_GroupMusicBot?startgroup=true")
+            ],[
+            InlineKeyboardButton("💬 Group", url="https://t.me/"),
+            InlineKeyboardButton("Channel 📣", url="https://t.me/GROUPMUSICNEWS")
+            ],[
+            InlineKeyboardButton("🎛 Commands", url="https://t.me/"),
+            InlineKeyboardButton("About👨🏻‍🎓", url="https://t.me/")
+            ],[
+            InlineKeyboardButton("🌐 Website 🌐", url="https://t.ME/")
+            ]]
         ),
-     disable_web_page_preview=True
+        disable_web_page_preview=True
     )
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
