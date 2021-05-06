@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/TG-Musics/Telegram-VCBot/stargazers">
-    <img src="https://img.shields.io/github/stars/TG-MUSICS/TELEGRAMG-VCBOT?style=social">
+    <img src="https://img.shields.io/github/stars/TG-MUSICS/TELEGRAM-VCBOT?style=social">
 
   </a>
   
