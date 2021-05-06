@@ -97,7 +97,8 @@ Different ways to get your `SESSION`:
 
 ### Credits
 
-- **[TG MUSICS](https://github.com/TG-Musics)**
+- **[TG MUSICS](https://github.com/TG-Musics)** : Organization
 
-- **[Vivek](https://github.com/VIVEK-TP)**
-- **[ᴊᴀʏᴀиᴛ ʜᴇɢᴅᴇ ᴋᴀɢᴇяɪ](https://github.com/jayantkagerI)**
+- **[Vivek](https://github.com/VIVEK-TP)** Dev
+- **[ᴊᴀʏᴀиᴛ ʜᴇɢᴅᴇ ᴋᴀɢᴇяɪ](https://github.com/jayantkagerI)** Dev
+- **[Fayas](https://github.com/FAYASNOUSHAD)** Dev
