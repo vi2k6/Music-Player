@@ -20,7 +20,7 @@
   </a>  
 </p>
 
-[![Music](https://img.shields.io/badge/Music-Support-red?style=flat&logo=telegram)](https://telegram.dog)  [![Music](https://img.shields.io/badge/Bot-Website-red?style=flat&logo=CodersRank)](https://tgmusic.tk)  
+[![Music](https://img.shields.io/badge/Music-Channel-red?style=flat&logo=telegram)](https://telegram.dog)  [![Music](https://img.shields.io/badge/Music-Support-red?style=flat&logo=telegram)](https://telegram.dog)  [![Music](https://img.shields.io/badge/Bot-Website-red?style=flat&logo=CodersRank)](https://tgmusic.tk)  
 ㅤㅤㅤㅤㅤㅤㅤ  
 [![license](https://img.shields.io/badge/Apache-2.0-blue?style=flat)](https://github.com/TG-Musics/tg-vc-bot/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TG-MUSICS/TG-VC-BOT)
 
