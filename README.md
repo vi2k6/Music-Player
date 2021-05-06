@@ -93,3 +93,11 @@ License -> https://github.com/TG-Bot-Devs/TG-Bot-Devs/blob/main/LICENSE
 ### Session String
 Different ways to get your `SESSION`:
 [![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://repl.it/@SpEcHiDe/GenerateStringSession)
+
+
+### Credits
+
+- **[TG MUSICS](https://github.com/TG-Musics)**
+
+- **[Vivek](https://github.com/VIVEK-TP)**
+- 
