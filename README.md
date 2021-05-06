@@ -3,13 +3,6 @@
 ##### A bot that can play music on telegram group's voice call
 
 <p align="center">
-  <a href="https://www.python.org">
-    <img height="25px" src="http://ForTheBadge.com/images/badges/made-with-python.svg">
-
-  </a>
-</p>
-
-<p align="center">
   <a href="https://github.com/TG-Musics/TG-VC-Bot/stargazers">
     <img src="https://img.shields.io/github/stars/TG-MUSICS/TG-VC-BOT?style=social">
 
@@ -27,11 +20,20 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://www.python.org">
+    <img height="25px" src="http://ForTheBadge.com/images/badges/made-with-python.svg">
+
+  </a>
+</p>
+
+
 [![Music](https://img.shields.io/badge/Music-Channel-red?style=flat&logo=telegram)](https://telegram.dog)  [![Music](https://img.shields.io/badge/Music-Support-red?style=flat&logo=telegram)](https://telegram.dog)  [![Music](https://img.shields.io/badge/Bot-Website-red?style=flat&logo=CodersRank)](https://tgmusic.tk)ㅤㅤㅤㅤㅤㅤ  
 
 [![license](https://img.shields.io/badge/Apache-2.0-blue?style=flat)](https://github.com/TG-Musics/tg-vc-bot/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TG-MUSICS/TG-VC-BOT)
 
 <img src="https://telegra.ph/file/c7df132e604cc3619aace.jpg" width="300" align="right">
+
 
 
 ```
