@@ -11,3 +11,13 @@ async def welcome(client, message):
                 await message.reply_text("Thanks for adding me to your Group :) \nPromote me now")
     except Exception as e:
         await Client.send_message(int("1205330319"), f"Chat ID: `{message.chat.id}` \nError while Sending Thanks Message: {e}")
+        await message.reply_text("""**Music player is online ✅**""",
+      reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "Channel📣", url="https://t.me/GroupMusicNews")
+                ]
+            ]
+        )
+   )
