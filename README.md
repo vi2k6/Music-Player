@@ -20,8 +20,7 @@
   </a>  
 </p>
 
-<p align="center">
-[![Music](https://img.shields.io/badge/Music-Channel-orange?style=for-the-badge&logo=telegram)](https://telegram.dog)  
+<p align="center">[![Music](https://img.shields.io/badge/Music-Channel-orange?style=for-the-badge&logo=telegram)](https://telegram.dog)  
 ㅤㅤㅤㅤㅤㅤㅤ  
 [![Music](https://img.shields.io/badge/Music-Support-red?style=flat&logo=telegram)](https://telegram.dog)  [![Music](https://img.shields.io/badge/Bot-Website-red?style=flat&logo=CodersRank)](https://tgmusic.tk)  
 ㅤㅤㅤㅤㅤㅤㅤ  
