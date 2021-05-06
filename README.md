@@ -30,6 +30,8 @@
 
 [![license](https://img.shields.io/badge/Apache-2.0-blue?style=flat)](https://github.com/TG-Musics/tg-vc-bot/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TG-MUSICS/TG-VC-BOT)
 
+<img src="https://telegra.ph/file/c7df132e604cc3619aace.jpg" width="300" align="right">
+
 ```
 Scrapped some code from @Infinity-Bots's Repository
 Please fork this repository don't import code
@@ -38,10 +40,6 @@ Made with Python3
 Copyright permission under GNU General Public License v3.0
 License -> https://github.com/TG-Bot-Devs/TG-Bot-Devs/blob/main/LICENSE
 ```
-
-### <img src="https://telegra.ph/file/c7df132e604cc3619aace.jpg" width="300" align="right">
-
-
 ### Features
 
 - Thumbnail Support
