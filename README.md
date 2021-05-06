@@ -5,12 +5,12 @@
 
 <p align="center">
   <a href="https://github.com/TG-Musics/Telegram-VCBot/stargazers">
-    <img src="https://img.shields.io/github/stars/TG-MUSICS/TG-VC-BOT?style=social">
+    <img src="https://img.shields.io/github/stars/TG-MUSICS/TELEGRAMG-VCBOT?style=social">
 
   </a>
   
   <a href="https://github.com/TG-Musics/Telegram-VCBot/fork">
-    <img src="https://img.shields.io/github/forks/TG-Musics/TeleGram-VCBOT?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/TG-Musics/Telegram-VCBOT?label=Fork&style=social">
 
   </a>  
 </p>
