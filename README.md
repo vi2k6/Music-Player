@@ -39,7 +39,7 @@ Copyright permission under GNU General Public License v3.0
 License -> https://github.com/TG-Bot-Devs/TG-Bot-Devs/blob/main/LICENSE
 ```
 
-<img src="https://telegra.ph/file/c7df132e604cc3619aace.jpg" width="300" align="right">
+### <img src="https://telegra.ph/file/c7df132e604cc3619aace.jpg" width="300" align="right">
 
 
 ### Features
