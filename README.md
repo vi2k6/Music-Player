@@ -20,11 +20,11 @@
   </a>  
 </p>
 
-[![TroJanz](https://img.shields.io/badge/TroJanzHEX-Channel-orange?style=for-the-badge&logo=telegram)](https://telegram.dog/TroJanzHEX)  
+[![Music News](https://img.shields.io/badge/Music-Bot-Channel-orange?style=for-the-badge&logo=telegram)](https://telegram.dog/)  
 ㅤㅤㅤㅤㅤㅤㅤ  
-[![TroJanz](https://img.shields.io/badge/TroJanzHEX-Support-red?style=flat&logo=telegram)](https://telegram.dog/TroJanzSupport)  [![TroJanz](https://img.shields.io/badge/TroJanzHEX-Website-red?style=flat&logo=CodersRank)](https://TroJanzHEX.me)  
+[![Music News](https://img.shields.io/badge/Music-Bot-Support-red?style=flat&logo=telegram)](https://telegram.dog/)  [![Music Bot](https://img.shields.io/badge/Music-Bot-Website-red?style=flat&logo=CodersRank)](https://tgvc.tk)  
 ㅤㅤㅤㅤㅤㅤㅤ  
-[![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat)](https://github.com/TroJanzHEX/Streams-Extractor/blob/main/COPYING)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TroJanzHEX/Streams-Extractor)
+[![Apache-2.0 license](https://img.shields.io/badge/License-Apache-2.0-blue?style=flat)](https://github.com/TG-Musics/TG-VC-Bot/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TG-MUSICS/TG-VC-BOT)
 
 ```
 Scrapped some code from @Infinity-Bots's Repository
