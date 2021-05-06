@@ -20,9 +20,9 @@
   </a>  
 </p>
 
-[![Music News](https://img.shields.io/badge/Music-Bot-Channel-orange?style=for-the-badge&logo=telegram)](https://telegram.dog/)  
+[![Music-News](https://img.shields.io/badge/Music-Bot-Channel-orange?style=for-the-badge&logo=telegram)](https://telegram.dog/)  
 ㅤㅤㅤㅤㅤㅤㅤ  
-[![Music News](https://img.shields.io/badge/Music-Bot-Support-red?style=flat&logo=telegram)](https://telegram.dog/)  [![Music Bot](https://img.shields.io/badge/Music-Bot-Website-red?style=flat&logo=CodersRank)](https://tgvc.tk)  
+[![Music-Support](https://img.shields.io/badge/Music-Bot-Support-red?style=flat&logo=telegram)](https://telegram.dog/)  [![Music Bot](https://img.shields.io/badge/Music-Bot-Website-red?style=flat&logo=CodersRank)](https://tgvc.tk)  
 ㅤㅤㅤㅤㅤㅤㅤ  
 [![Apache-2.0 license](https://img.shields.io/badge/License-Apache-2.0-blue?style=flat)](https://github.com/TG-Musics/TG-VC-Bot/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TG-MUSICS/TG-VC-BOT)
 
