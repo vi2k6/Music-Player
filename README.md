@@ -100,4 +100,4 @@ Different ways to get your `SESSION`:
 - **[TG MUSICS](https://github.com/TG-Musics)**
 
 - **[Vivek](https://github.com/VIVEK-TP)**
-- **[JaytKangeri](https://github.com/jayantkagerI)
+- **[ᴊᴀʏᴀиᴛ ʜᴇɢᴅᴇ ᴋᴀɢᴇяɪ](https://github.com/jayantkagerI)
