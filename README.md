@@ -21,8 +21,9 @@
 </p>
 
 [![Music](https://img.shields.io/badge/Music-Channel-orange?style=for-the-badge&logo=telegram)](https://telegram.dog)  
-ㅤㅤㅤㅤㅤㅤㅤ  
+
 [![Music](https://img.shields.io/badge/Music-Support-red?style=flat&logo=telegram)](https://telegram.dog)
+
 [![Music](https://img.shields.io/badge/Bot-Website-red?style=flat&logo=CodersRank)](https://tgmusic.tk)  
 ㅤㅤㅤㅤㅤㅤㅤ  
 [![license](https://img.shields.io/badge/License-Apache-2.0-blue?style=flat)](https://github.com/TG-Musics/TG-VC-Bot/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TG-MUSICS/TG-VC-BOT)
