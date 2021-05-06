@@ -110,3 +110,8 @@ Different ways to get your `SESSION`:
 - **[HEIMAN PICTURES](https://github.com/HeimanPictures)** Dev
 - **[Uvindu Bro](https://github.com/UvinduBro)** Dev
 - **[DaisyX](https://github.com/TeamDaisyX)** Codes
+
+### Sponsors
+
+- **[Vivek](https://github.com/VIVEK-TP)**
+- **[ᴊᴀʏᴀиᴛ ʜᴇɢᴅᴇ ᴋᴀɢᴇяɪ](https://github.com/jayantkagerI)**
