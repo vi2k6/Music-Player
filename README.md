@@ -3,19 +3,19 @@
 ##### A bot that can play music on telegram group's voice call
 
 <p align="center">
-  <a href="https://github.com/TG-Musics/TG-VC-Bot/stargazers">
+  <a href="https://github.com/TG-Musics/TG-VCBot/stargazers">
     <img src="https://img.shields.io/github/stars/TG-MUSICS/TG-VC-BOT?style=social">
 
   </a>
   
-  <a href="https://github.com/TG-Musics/TG-VC-Bot/fork">
+  <a href="https://github.com/TG-Musics/TG-VCBot/fork">
     <img src="https://img.shields.io/github/forks/TG-Musics/TG-VC-BOT?label=Fork&style=social">
 
   </a>  
 </p>
 
 <p align="center">
-  <a href="https://github.com/TG-Musics/TG-VC-Bot">
+  <a href="https://github.com/TG-Musics/TG-VCBot">
      <img height="30px" src="https://img.shields.io/badge/TG%20Music%20Bot-black?style=for-the-badge&logo=github">
   </a>
 </p>
@@ -30,19 +30,18 @@
 
 [![Music](https://img.shields.io/badge/Music-Channel-red?style=flat&logo=telegram)](https://telegram.dog)  [![Music](https://img.shields.io/badge/Music-Support-red?style=flat&logo=telegram)](https://telegram.dog)  [![Music](https://img.shields.io/badge/Bot-Website-red?style=flat&logo=CodersRank)](https://tgmusic.tk)ㅤㅤㅤㅤㅤㅤ  
 
-[![license](https://img.shields.io/badge/Apache-2.0-blue?style=flat)](https://github.com/TG-Musics/tg-vc-bot/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TG-MUSICS/TG-VC-BOT)
+[![license](https://img.shields.io/badge/Apache-2.0-blue?style=flat)](https://github.com/TG-Musics/tg-vcbot/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TG-MUSICS/TG-VC-BOT)
 
 <img src="https://telegra.ph/file/c7df132e604cc3619aace.jpg" width="300" align="right">
 
 
 
 ```
-Scrapped some code from @Infinity-Bots's Repository
 Please fork this repository don't import code
 Made with Python3
 (C) @TG-Musics
 Copyright permission under GNU General Public License v3.0
-License -> https://github.com/TG-Musics/TG-VC-BOT/blob/main/LICENSE
+License -> https://github.com/TG-Musics/TG-VCBOT/blob/main/LICENSE
 ```
 ### Features
 
