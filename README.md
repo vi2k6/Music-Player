@@ -9,7 +9,7 @@
   </a>
   
   <a href="https://github.com/TG-Musics/TG-VCBot/fork">
-    <img src="https://img.shields.io/github/forks/TG-Musics/TG-VC-BOT?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/TG-Musics/TG-VCBOT?label=Fork&style=social">
 
   </a>  
 </p>
