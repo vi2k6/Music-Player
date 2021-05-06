@@ -3,6 +3,13 @@
 ##### A bot that can play music on telegram group's voice call
 
 <p align="center">
+  <a href="https://www.python.org">
+    <img height="25px" src="http://ForTheBadge.com/images/badges/made-with-python.svg">
+
+  </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/TG-Musics/TG-VC-Bot/stargazers">
     <img src="https://img.shields.io/github/stars/TG-MUSICS/TG-VC-BOT?style=social">
 
