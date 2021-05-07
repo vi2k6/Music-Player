@@ -15,7 +15,7 @@ async def welcome(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Channel📣", url="https://t.me/GroupMusicNews")
+                        "Channel📣", url="https://t.me/GroupMusicXNews")
                 ]
             ]
         )
