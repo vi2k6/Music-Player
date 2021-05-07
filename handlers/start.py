@@ -17,7 +17,7 @@ async def start(_, message: Message):
             InlineKeyboardButton("💬 Group", url="https://t.me/MusicBotSupports"),
             InlineKeyboardButton("Channel 📣", url="https://t.me/GroupMusicXNews")
             ],[
-            InlineKeyboardButton("🌐 Website 🌐", url="https://t.ME/")
+            InlineKeyboardButton("🎛 Commands 🎛", url="https://telegra.ph/Music-Bot-05-07")
             ]]
         ),
         disable_web_page_preview=True
