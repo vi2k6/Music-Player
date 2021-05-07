@@ -12,10 +12,10 @@ async def start(_, message: Message):
         f"""**Hello 👋🏻 {}!\n\nI can play music in voice chats of Telegram Groups.\n\nI have a lot of cool feature that will amaze You!\n\nJoin [Updates Channel](https://t.me/GroupMusicNews) To Get Latest Updates**""",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/TG_GroupMusicBot?startgroup=true")
+            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/GroupMusicXBot?startgroup=true")
             ],[
-            InlineKeyboardButton("💬 Group", url="https://t.me/"),
-            InlineKeyboardButton("Channel 📣", url="https://t.me/GROUPMUSICNEWS")
+            InlineKeyboardButton("💬 Group", url="https://t.me/MusicBotSupports"),
+            InlineKeyboardButton("Channel 📣", url="https://t.me/GroupMusicXNews")
             ],[
             InlineKeyboardButton("🌐 Website 🌐", url="https://t.ME/")
             ]]
@@ -30,7 +30,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎙️ Support Group 🎙️", url="https://t.me/daisysupport_Official")
+                        "🎙️ Support Group 🎙️", url="https://t.me/MusicBotSupports")
                 ]
             ]
         )
