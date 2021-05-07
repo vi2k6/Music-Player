@@ -36,7 +36,7 @@
 <img src="https://telegra.ph/file/c7df132e604cc3619aace.jpg" width="300" align="right">
 
 
-`Latest Update On : Less Than 1 Hour`
+`Latest Update On : Less Than 5 Hour`
 
 
 ```
