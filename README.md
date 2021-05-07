@@ -102,14 +102,14 @@ Different ways to get your `SESSION`:
 
 - **[TG MUSICS](https://github.com/TG-Musics)** : Organization
 
-▪️ **[Vivek](https://github.com/VIVEK-TP)**
-▪️ **[ᴊᴀʏᴀиᴛ ʜᴇɢᴅᴇ ᴋᴀɢᴇяɪ](https://github.com/jayantkagerI)**
-▪️ **[Fayas](https://github.com/FAYASNOUSHAD)**
-▪️ **[RabbitFoRed](https://github.com/RabbitFored)**
-▪️ **[Itz-Fork](https://github.com/Itz-fork)** Dev
-▪️ **[HEIMAN PICTURES](https://github.com/HeimanPictures)**
-▪️ **[Uvindu Bro](https://github.com/UvinduBro)**
-▪️ **[DaisyX](https://github.com/TeamDaisyX)**
+- **[Vivek](https://github.com/VIVEK-TP)** Dev
+- **[ᴊᴀʏᴀиᴛ ʜᴇɢᴅᴇ ᴋᴀɢᴇяɪ](https://github.com/jayantkagerI)** Dev
+- **[Fayas](https://github.com/FAYASNOUSHAD)** Dev
+- **[RabbitFoRed](https://github.com/RabbitFored)** Dev
+- **[Itz-Fork](https://github.com/Itz-fork)** Dev
+- **[HEIMAN PICTURES](https://github.com/HeimanPictures)** Dev
+- **[Uvindu Bro](https://github.com/UvinduBro)** Dev
+- **[DaisyX](https://github.com/TeamDaisyX)** Codes
 
 ### Sponsors
 
