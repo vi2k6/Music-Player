@@ -19,4 +19,4 @@ async def welcome(client, message):
                 ]
             ]
         )
-   )
+   ),
