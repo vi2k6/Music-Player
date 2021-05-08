@@ -8,8 +8,7 @@ from config import BOT_NAME as bn
 
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
-    await message.reply_text.format(update.from_user.first_name)(
-        "**Hello 👋🏻 {}!\n\nI can play music in voice chats of Telegram Groups.\n\nI have a lot of cool feature that will amaze You!\n\nJoin [Updates Channel](https://t.me/GroupMusicXBotNews) To Get Latest Updates**",
+    await message.reply_text("**Hello 👋🏻 {}!\n\nI can play music in voice chats of Telegram Groups.\n\nI have a lot of cool feature that will amaze You!\n\nJoin [Updates Channel](https://t.me/GroupMusicXBotNews) To Get Latest Updates**".format(update.from_user.first_name),
         reply_markup=InlineKeyboardMarkup(
           [
             [
