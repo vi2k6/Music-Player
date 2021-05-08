@@ -11,14 +11,18 @@ async def start(_, message: Message):
     await message.reply_text.format(update.from_user.first_name)(
         f"**Hello 👋🏻 {}!\n\nI can play music in voice chats of Telegram Groups.\n\nI have a lot of cool feature that will amaze You!\n\nJoin [Updates Channel](https://t.me/GroupMusicXBotNews) To Get Latest Updates**",
         reply_markup=InlineKeyboardMarkup(
-            [[
+          [
+            [
             InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/GroupMusicXBot?startgroup=true")
-            ],[
+            ],
+            [
             InlineKeyboardButton("💬 Group", url="https://t.me/MusicBotSupports"),
-            InlineKeyboardButton("Channel 📣", url="https://t.me/GroupMusicXNews")
-            ],[
+            InlineKeyboardButton("Channel 📣", url="https://t.me/GroupMusicXNews"),
+            ],
+            [
             InlineKeyboardButton("🎛 Commands 🎛", url="https://telegra.ph/Music-Bot-05-07")
-            ]]
+            ]
+          ]
         ),
         disable_web_page_preview=True
     )
