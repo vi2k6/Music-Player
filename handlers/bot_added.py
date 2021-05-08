@@ -18,5 +18,4 @@ async def welcome(client, message):
                         "Channel📣", url="https://t.me/GroupMusicXNews")
                 ]
             ]
-        )
-   ),
+        ),
