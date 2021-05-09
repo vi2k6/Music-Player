@@ -8,20 +8,12 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://www.python.org">
-    <img height="25px" src="http://ForTheBadge.com/images/badges/made-with-python.svg">
-
-  </a>
-</p>
-
 <a href="https://github.com/TG-MUSICS/Telegram_VC_Bot/commits/"> <img src="https://img.shields.io/github/last-commit/TG-MUSICS/TELEGRAM_VC_BOT?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
-
-<p>
 
 <img src="https://telegra.ph/file/c7df132e604cc3619aace.jpg" width="300" align="right">
 
-</p>
+<details>
+  <summary>Telegram VC Bot</summary>
 
 ```
 Please fork this repository don't import code
@@ -30,6 +22,8 @@ Made with Python3
 Copyright permission under GNU General Public License v3.0
 License -> https://github.com/TG-Musics/TG-VCBOT/blob/main/LICENSE
 ```
+</details>
+
 ### Features✨
 
 - Thumbnail Support
@@ -37,7 +31,7 @@ License -> https://github.com/TG-Musics/TG-VCBOT/blob/main/LICENSE
 - Current playback support
 - Showing track names when skipping
 - Zero downtime, Fully Stable
-- DEEZER,YOUTUBE & SAAVN PLAYBACK SUPPORTED
+- Deezer,YouTube & Saavan PlayBack Supported
 - Settings panel
 - Control with buttons
 - Userbot auto join
