@@ -17,9 +17,11 @@
 
 <a href="https://github.com/TG-MUSICS/Telegram_VC_Bot/commits/"> <img src="https://img.shields.io/github/last-commit/TG-MUSICS/TELEGRAM_VC_BOT?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
 
-
+<p>
 
 <img src="https://telegra.ph/file/c7df132e604cc3619aace.jpg" width="300" align="right">
+
+</p>
 
 ```
 Please fork this repository don't import code
@@ -28,7 +30,7 @@ Made with Python3
 Copyright permission under GNU General Public License v3.0
 License -> https://github.com/TG-Musics/TG-VCBOT/blob/main/LICENSE
 ```
-### Features
+### Features✨
 
 - Thumbnail Support
 - Playlist Support
@@ -60,7 +62,7 @@ License -> https://github.com/TG-Musics/TG-VCBOT/blob/main/LICENSE
 - `/saavn <song name>` - download songs you want quickly via saavn
 - `/video <song name>` - download videos you want quickly
 
-#### Admins only.
+#### Admins only.👮🏻‍♂️
 - `/player` - open music player settings panel
 - `/pause` - pause song play
 - `/resume` - resume song play
