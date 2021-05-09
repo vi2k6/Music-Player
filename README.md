@@ -61,6 +61,18 @@
 - `/userbotleave` - remove assistant from your chat
 - `/reload` - Refresh admin list
 
+<details>
+  <summary>Telegram VC Bot</summary>
+
+```
+Please fork this repository don't import code
+Made with Python3
+(C) @TG-Musics
+Copyright permission under GNU General Public License v3.0
+License -> https://github.com/TG-Musics/TG-VCBOT/blob/main/LICENSE
+```
+</details>
+
 ### Deploy To Heroku</h4>
 
 <p align="left">
