@@ -10,6 +10,12 @@
 
 <a href="https://github.com/TG-MUSICS/Telegram_VC_Bot/commits/"> <img src="https://img.shields.io/github/last-commit/TG-MUSICS/TELEGRAM_VC_BOT?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
 
+<p align="center">
+  <a href="https://telegra.ph/file/c7df132e604cc3619aace.jpg">
+     <img height="30px" src="https://telegra.ph/file/c7df132e604cc3619aace.jpg">
+  </a>
+</p>
+
 <details>
   <summary>Telegram VC Bot</summary>
 
@@ -82,7 +88,7 @@ Different ways to get your `SESSION`:
 
 - **[Vivek](https://github.com/VIVEK-TP)** Dev
 - **[ᴊᴀʏᴀиᴛ ʜᴇɢᴅᴇ ᴋᴀɢᴇяɪ](https://github.com/jayantkagerI)** Dev
-- **[Fayas Noushad](https://github.com/FAYASNOUSHAD)** Dev
+- **[Fayas](https://github.com/FAYASNOUSHAD)** Dev
 - **[RabbitFoRed](https://github.com/RabbitFored)** Dev
 - **[Itz-Fork](https://github.com/Itz-fork)** Dev
 - **[HEIMAN PICTURES](https://github.com/HeimanPictures)** Dev
