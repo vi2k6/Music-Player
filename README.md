@@ -82,7 +82,7 @@ Different ways to get your `SESSION`:
 
 - **[Vivek](https://github.com/VIVEK-TP)** Dev
 - **[ᴊᴀʏᴀиᴛ ʜᴇɢᴅᴇ ᴋᴀɢᴇяɪ](https://github.com/jayantkagerI)** Dev
-- **[Fayas](https://github.com/FAYASNOUSHAD)** Dev
+- **[Fayas Noushad](https://github.com/FAYASNOUSHAD)** Dev
 - **[RabbitFoRed](https://github.com/RabbitFored)** Dev
 - **[Itz-Fork](https://github.com/Itz-fork)** Dev
 - **[HEIMAN PICTURES](https://github.com/HeimanPictures)** Dev
