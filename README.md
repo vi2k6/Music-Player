@@ -15,17 +15,11 @@
   </a>
 </p>
 
-
-[![Music](https://img.shields.io/badge/Music-Channel-red?style=flat&logo=telegram)](https://telegram.dog/GroupMusicXBotNews)  [![Music](https://img.shields.io/badge/Music-Support-red?style=flat&logo=telegram)](https://t.me/MusicBotSupports)  [![Music](https://img.shields.io/badge/Bot-Website-red?style=flat&logo=CodersRank)](https://tgmusic.tk)ㅤㅤㅤㅤㅤㅤ  
-
-[![license](https://img.shields.io/badge/Apache-2.0-blue?style=flat)](https://github.com/TG-Musics/tg-vcbot/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TG-MUSICS/TG-VC-BOT)
-
-<img src="https://telegra.ph/file/c7df132e604cc3619aace.jpg" width="300" align="right">
-
-
 <a href="https://github.com/TG-MUSICS/Telegram_VC_Bot/commits/"> <img src="https://img.shields.io/github/last-commit/TG-MUSICS/TELEGRAM_VC_BOT?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
 
 
+
+<img src="https://telegra.ph/file/c7df132e604cc3619aace.jpg" width="300" align="right">
 
 ```
 Please fork this repository don't import code
