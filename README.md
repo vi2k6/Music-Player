@@ -10,8 +10,6 @@
 
 <a href="https://github.com/TG-MUSICS/Telegram_VC_Bot/commits/"> <img src="https://img.shields.io/github/last-commit/TG-MUSICS/TELEGRAM_VC_BOT?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
 
-<img src="https://telegra.ph/file/c7df132e604cc3619aace.jpg" width="300" align="right">
-
 <details>
   <summary>Telegram VC Bot</summary>
 
