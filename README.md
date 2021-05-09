@@ -73,14 +73,14 @@ License -> https://github.com/TG-Musics/TG-VCBOT/blob/main/LICENSE
 ```
 </details>
 
-### Deploy To Heroku</h4>
+### Deploy To Heroku 📡</h4>
 
 <p align="left">
   <a href="https://heroku.com/deploy/">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
-### Session String
+### Session String 📼
 Different ways to get your `SESSION`:
 [![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://repl.it/@SpEcHiDe/GenerateStringSession)
 
