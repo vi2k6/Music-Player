@@ -1,6 +1,6 @@
 ### TG Music Bot
 
-##### A bot that can play music on telegram group's voice call.Telegram bot + userbot for streaming audio in group calls.
+A bot that can play music on telegram group's voice call.Telegram bot + userbot for streaming audio in group calls.
 
 <p align="center">
   <a href="https://github.com/TG-Musics/TG-VCBot">
