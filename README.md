@@ -2,19 +2,6 @@
 
 ##### A bot that can play music on telegram group's voice call.Telegram bot + userbot for streaming audio in group calls.
 
-
-<p align="center">
-  <a href="https://github.com/TG-Musics/Telegram-VCBot/stargazers">
-    <img src="https://img.shields.io/github/stars/TG-MUSICS/TELEGRAM-VCBOT?style=social">
-
-  </a>
-  
-  <a href="https://github.com/TG-Musics/Telegram-VCBot/fork">
-    <img src="https://img.shields.io/github/forks/TG-Musics/Telegram-VCBOT?label=Fork&style=social">
-
-  </a>  
-</p>
-
 <p align="center">
   <a href="https://github.com/TG-Musics/TG-VCBot">
      <img height="30px" src="https://img.shields.io/badge/TG%20Music%20Bot-black?style=for-the-badge&logo=github">
@@ -36,7 +23,8 @@
 <img src="https://telegra.ph/file/c7df132e604cc3619aace.jpg" width="300" align="right">
 
 
-`Latest Update On : Less Than 5 Hour`
+<a href="https://github.com/TG-MUSICS/Telegram_VC_Bot/commits/"> <img src="https://img.shields.io/github/last-commit/TG-MUSICS/TELEGRAM_VC_BOT?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
+
 
 
 ```
