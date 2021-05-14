@@ -3,10 +3,11 @@ import asyncio
 from pyrogram import Client
 
 TG = """
-Copyright (C) 2020-2021 by DevsExpo@Github, < https://github.com/DevsExpo >.
-This file is part of < https://github.com/DevsExpo/FridayUserBot > project,
-and is released under the "GNU v3.0 License Agreement".
-Please see < https://github.com/DevsExpo/blob/master/LICENSE >
+A bot that can play music on telegram group's voice chat.
+
+This file is part of < https://github.coM/TG-MUSICS/telegrAM_VC_BOT > project,
+and is released under the "Apache 2.0".
+Please see < https://github.COM/TG-MUSICS/TelEGRAM_VC_BOTblob/master/LICENSE >
 All rights reserved.
 """
 
