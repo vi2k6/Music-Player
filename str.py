@@ -2,8 +2,17 @@ import asyncio
 
 from pyrogram import Client
 
+TG = """
+Copyright (C) 2020-2021 by DevsExpo@Github, < https://github.com/DevsExpo >.
+This file is part of < https://github.com/DevsExpo/FridayUserBot > project,
+and is released under the "GNU v3.0 License Agreement".
+Please see < https://github.com/DevsExpo/blob/master/LICENSE >
+All rights reserved.
+"""
 
-print("Enter your app information from my.telegram.org/apps below.")
+print(TG)
+api_id = input("Enter Your API ID: \n")
+api_hash = input("Enter Your API HASH : \n")
 
 
 async def main():
