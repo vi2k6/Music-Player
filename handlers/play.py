@@ -244,9 +244,9 @@ async def settings(client, message):
 @Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
 async def p_cb(b, cb):
     try:
-        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+        await cb._client.get_chat_member(int("-1001246827830"), message.from_user.id)
     except UserNotParticipant:
-        await message.reply_text(JOIN_ASAP)
+        await cb.reply_text(JOIN_ASAP)
         return
     global que    
     qeue = que.get(cb.message.chat.id)
@@ -281,9 +281,9 @@ async def p_cb(b, cb):
 @cb_admin_check
 async def m_cb(b, cb):
     try:
-        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+        await cb._client.get_chat_member(int("-1001246827830"), message.from_user.id)
     except UserNotParticipant:
-        await message.reply_text(JOIN_ASAP)
+        await cb.reply_text(JOIN_ASAP)
         return
     global que    
     qeue = que.get(cb.message.chat.id)
