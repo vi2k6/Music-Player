@@ -49,7 +49,7 @@ A bot that can play music on telegram group's voice call.Telegram bot + userbot 
 - `/search <query>` - search videos on youtube with details
 - `/deezer <song name>` - download songs you want quickly via deezer
 - `/saavn <song name>` - download songs you want quickly via saavn
-- `/video <song name>` - download videos you want quickly
+- `/vid <song name>` - download videos you want quickly
 
 #### Admins only.👮🏻‍♂️
 - `/player` - open music player settings panel
