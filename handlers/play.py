@@ -25,7 +25,7 @@ from downloaders import youtube
 from config import BOT_NAME as bn, DURATION_LIMIT
 from helpers.filters import command, other_filters
 from helpers.decorators import errors, authorized_users_only
-from helpers.errors import DurationLimitError
+from helpers.errors import DurationLimitError, UserNotParticipant
 from helpers.gets import get_url, get_file_name
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from cache.admins import admins as a
@@ -42,7 +42,7 @@ import json
 import wget
 chat_id = None
 
-           
+JOIN_ASAP = "You need to Join @GroupMusicXNews for using me :/"           
 
 
 def cb_admin_check(func: Callable) -> Callable:
@@ -127,6 +127,11 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     & ~ filters.edited
 )
 async def playlist(client, message):
+    try:
+        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+    except UserNotParticipant:
+        await message.reply_text(JOIN_ASAP)
+        return
     global que
     queue = que.get(message.chat.id)
     if not queue:
@@ -137,7 +142,7 @@ async def playlist(client, message):
     now_playing = temp[0][0]
     by = temp[0][1].mention(style='md')
     msg = "**Now Playing** in {}".format(message.chat.title)
-    msg += "\n- "+ now_playing
+    msg += "\n"+ now_playing
     msg += "\n- Req by "+by
     temp.pop(0)
     if temp:
@@ -197,6 +202,11 @@ def r_ply(type_):
     & ~ filters.edited
 )
 async def ee(client, message):
+    try:
+        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+    except UserNotParticipant:
+        await message.reply_text(JOIN_ASAP)
+        return
     queue = que.get(message.chat.id)
     stats = updated_stats(message.chat, queue)
     if stats:
@@ -211,6 +221,11 @@ async def ee(client, message):
 )
 @authorized_users_only
 async def settings(client, message):
+    try:
+        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+    except UserNotParticipant:
+        await message.reply_text(JOIN_ASAP)
+        return
     playing = None
     if message.chat.id in callsmusic.pytgcalls.active_calls:
         playing = True
@@ -227,6 +242,11 @@ async def settings(client, message):
 
 @Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
 async def p_cb(b, cb):
+    try:
+        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+    except UserNotParticipant:
+        await message.reply_text(JOIN_ASAP)
+        return
     global que    
     qeue = que.get(cb.message.chat.id)
     type_ = cb.matches[0].group(1)
@@ -259,6 +279,11 @@ async def p_cb(b, cb):
 @Client.on_callback_query(filters.regex(pattern=r'^(play|pause|skip|leave|puse|resume|menu|cls)$'))
 @cb_admin_check
 async def m_cb(b, cb):
+    try:
+        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+    except UserNotParticipant:
+        await message.reply_text(JOIN_ASAP)
+        return
     global que    
     qeue = que.get(cb.message.chat.id)
     type_ = cb.matches[0].group(1)
@@ -398,6 +423,11 @@ async def m_cb(b, cb):
 
 @Client.on_message(command("play") & other_filters)
 async def play(_, message: Message):
+    try:
+        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+    except UserNotParticipant:
+        await message.reply_text(JOIN_ASAP)
+        return
     global que
     lel = await message.reply("🔄 **Processing**")
     administrators = await get_administrators(message.chat)
@@ -547,6 +577,11 @@ async def play(_, message: Message):
     & ~ filters.edited
 )
 async def deezer(client: Client, message_: Message):
+    try:
+        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+    except UserNotParticipant:
+        await message.reply_text(JOIN_ASAP)
+        return
     global que
     lel = await message_.reply("🔄 **Processing**")
     administrators = await get_administrators(message_.chat)
@@ -677,6 +712,11 @@ async def deezer(client: Client, message_: Message):
     & ~ filters.edited
 )
 async def jiosaavn(client: Client, message_: Message):
+    try:
+        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+    except UserNotParticipant:
+        await message.reply_text(JOIN_ASAP)
+        return
     global que
     lel = await message_.reply("🔄 **Processing**")
     administrators = await get_administrators(message_.chat)
