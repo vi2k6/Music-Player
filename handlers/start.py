@@ -9,7 +9,7 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command(["start", "start@GroupMusicXBot"]) & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        text="**Hello 👋🏻 {}!\n\nI can play music in voice chats of Telegram Groups.\n\nI have a lot of cool feature that will amaze You!\n\nJoin [Updates Channel](https://t.me/GroupMusicXNews) To Get Latest Updates**".format(message.from_user.mention),
+        text="**Hello 👋🏻 {}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**\n\nI Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**\n\nJoin [Updates Channel](https://t.me/GroupMusicXNews) To Get Latest Updates**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/GroupMusicXBot?startgroup=true")
@@ -26,7 +26,45 @@ async def start(_, message: Message):
 @Client.on_message(filters.command(["start", "start@GroupMusicXBot"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
       await message.reply_text(
-          text="**Music player is online ✅**",
+          text="",
+          reply_markup=InlineKeyboardMarkup(
+              [[
+              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/MusicBotSupports")
+              ]]
+          )
+      )
+
+@Client.on_message(filters.command(["cmdlist", "cmdlist@GroupMusicXBot"]) & ~filters.private & ~filters.channel)
+async def cmdlist_, message: Message):
+      await message.reply_text(
+          text="**Group Music Bot : Help Menu**
+
+__× First Add Me To Your Group..
+× Promote Me As Admin In Your Group With All Permission..__
+
+**🏷 Common Commands.**
+
+• `/play` - Song Name : __Plays Via Youtube__
+• `/dplay` - Song Name : __Play Via Deezer__
+• `/splay` - Song Name : __Play Via Jio Saavn__
+• `/playlist` - __Show now playing list__
+• `/current` - __Show now playing__
+
+• `/song` - Song Name : __Get The Song From YouTube__
+• `/vid` - Video Name : __Get The Video From YouTube__
+• `/deezer` - song name : __download songs you want quickly via deezer__
+• `/saavn` - song name : __download songs you want quickly via saavn__
+• `/search` - YouTube Title : __(Get YouTube Search Query)__
+
+**🏷 Group Admin Commands.**
+
+• `/skip` : Skips Music
+• `/pause` : Pause Playing Music
+• `/resume` : Resume Playing Music
+• `/end` : Stops playing Music
+• `/reload` : Reloads Admin List
+• `/userbotjoin` : Assistant Joins The Group
+• `/userbotleave` : Assistant Leaves From The Group.",
           reply_markup=InlineKeyboardMarkup(
               [[
               InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/MusicBotSupports")
