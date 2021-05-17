@@ -66,7 +66,7 @@ __× First Add Me To Your Group..
 • `/end` : __Stops playing Music__
 • `/reload` : __Reloads Admin List__
 • `/userbotjoin` : __Assistant Joins The Group__
-• `/userbotleave` : __Assistant Leaves From The Group.__""".format(message.from_user.mention),
+• `/userbotleave` : __Assistant Leaves From The Group.__""",
         reply_markup=InlineKeyboardMarkup(
               [[
               InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/MusicBotSupports")
