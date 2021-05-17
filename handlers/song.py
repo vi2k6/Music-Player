@@ -78,11 +78,6 @@ def song(client, message):
     except Exception as e:
         print(e)
         
-# ARQ API
-# Don't Change Anything Here!
-
-ARQ_API = "http://35.240.133.234:8000"
-arq = ARQ(ARQ_API)
 
 
 def get_text(message: Message) -> [None, str]:
