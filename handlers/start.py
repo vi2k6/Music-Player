@@ -36,7 +36,7 @@ async def gstart(_, message: Message):
       )
 
 @Client.on_message(filters.command(["cmdlist", "cmdlist@GroupMusicXBot"]) & ~filters.private & ~filters.channel)
-async def cmdlist_, message: Message):
+async def cmdlist(_, message: Message):
       await message.reply_text(
           text="**Group Music Bot : Help Menu**
 
