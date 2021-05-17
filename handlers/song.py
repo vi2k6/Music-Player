@@ -312,7 +312,7 @@ async def deezsong(_, message):
     is_downloading = False
 
 
-@Client.on_message(filters.command(["vsong", "video"]))
+@Client.on_message(filters.command(["vsong", "vid"]))
 async def ytmusic(client,message: Message):
     global is_downloading
     if is_downloading:
