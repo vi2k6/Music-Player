@@ -685,7 +685,7 @@ async def deezer(client: Client, message_: Message):
         qeue.append(appendable)
         await res.edit_text(f"Music= #️⃣ Queued at position {position}")
     else:
-        await res.edit_text("Music=▶️ Playing.....")
+        await res.edit_text("Music=Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -828,7 +828,7 @@ async def jiosaavn(client: Client, message_: Message):
         )           
            
     else:
-        await res.edit_text("▶️ Playing.....")
+        await res.edit_text("Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
