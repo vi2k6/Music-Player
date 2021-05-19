@@ -15,7 +15,7 @@ async def start(_, message: Message):
             InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/GroupMuSicPlayBot?startgroup=true")
             ],[
             InlineKeyboardButton("💬 Group", url="https://t.me/MusicBotSupports"),
-            InlineKeyboardButton("Channel 📣", url="https://t.me/GroupMusicXNews")
+            InlineKeyboardButton("Channel 🔊", url="https://t.me/GroupMusicXNews")
             ],[
             InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07"),
             InlineKeyboardButton("Credits ❤", url="https://telegra.ph/Group-Music-X-Bot-05-17")
