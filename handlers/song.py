@@ -78,7 +78,7 @@ def song(client, message):
     except Exception as e:
         print(e)
         
-
+arq = ARQ("https://thearq.tech", ARQ_API_KEY)
 
 def get_text(message: Message) -> [None, str]:
     text_to_return = message.text
