@@ -242,12 +242,8 @@ async def settings(client, message):
         await message.reply('No VC instances running in this chat')
 
 @Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
+@Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
 async def p_cb(b, cb):
-    try:
-        await cb._client.get_chat_member(int("-1001246827830"), message.from_user.id)
-    except UserNotParticipant:
-        await cb.reply_text(JOIN_ASAP)
-        return
     global que    
     qeue = que.get(cb.message.chat.id)
     type_ = cb.matches[0].group(1)
@@ -280,11 +276,6 @@ async def p_cb(b, cb):
 @Client.on_callback_query(filters.regex(pattern=r'^(play|pause|skip|leave|puse|resume|menu|cls)$'))
 @cb_admin_check
 async def m_cb(b, cb):
-    try:
-        await cb._client.get_chat_member(int("-1001246827830"), message.from_user.id)
-    except UserNotParticipant:
-        await cb.reply_text(JOIN_ASAP)
-        return
     global que    
     qeue = que.get(cb.message.chat.id)
     type_ = cb.matches[0].group(1)
