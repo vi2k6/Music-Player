@@ -32,7 +32,7 @@
       "required": true
     },
     "CHANNEL_USERNAME": {
-      "description": "Your Channel Username Without @ For Force Sub.",
+      "description": "Your Channel Username With @ For Force Sub.",
       "required": true
     },
     "CHANNEL_ID": {
