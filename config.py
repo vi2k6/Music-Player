@@ -28,9 +28,9 @@ admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1001234567890"))
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1001246827830"))
 
-CHANNEL_USERNAME = int(getenv("CHANNEL_USERNAME", "groupmusic"))
+CHANNEL_USERNAME = int(getenv("CHANNEL_USERNAME", "GroupMusicXNews"))
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 
