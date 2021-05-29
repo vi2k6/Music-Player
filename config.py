@@ -28,6 +28,10 @@ admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1001234567890"))
+
+CHANNEL_USERNAME = int(getenv("CHANNEL_USERNAME", "groupmusic"))
+
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
