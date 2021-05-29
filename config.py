@@ -28,7 +28,7 @@ admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1001246827830"))
+CHANNEL_ID = int(getenv("CHANNEL_ID")
 
 CHANNEL_USERNAME = getenv("CHANNEL_USERNAME")
 
