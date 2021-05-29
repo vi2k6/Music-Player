@@ -22,7 +22,9 @@ from pyrogram.errors import UserAlreadyParticipant
 import converter
 from downloaders import youtube
 
-from config import CHANNEL_USERNAME as channelusername, CHANNEL_ID as channelid
+from config import *
+from config import CHANNEL_ID as channelid
+from config import CHANNEL_USERNAME as channelusername
 from config import BOT_NAME as bn, DURATION_LIMIT
 from helpers.filters import command, other_filters
 from helpers.decorators import errors, authorized_users_only
