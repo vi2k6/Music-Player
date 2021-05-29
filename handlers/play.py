@@ -45,7 +45,7 @@ import json
 import wget
 chat_id = None
 
-JOIN_ASAP = "You need to Join @{channelusername} for using me :/"           
+JOIN_ASAP = "You need to Join {channelusername} for using me :/"           
 
 
 def cb_admin_check(func: Callable) -> Callable:
