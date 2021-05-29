@@ -31,6 +31,14 @@
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
     },
+    "CHANNEL_USERNAME": {
+      "description": "Your Channel Username Without @ For Force Sub.",
+      "required": true
+    },
+    "CHANNEL_ID": {
+      "description": "Your Channel ID For Force Sub.",
+      "required": true
+    },
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
