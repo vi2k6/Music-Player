@@ -22,6 +22,8 @@ from pyrogram.errors import UserAlreadyParticipant
 import converter
 from downloaders import youtube
 
+from config import CHANNEL_ID as channelid
+from config import CHANNEL_USERNAME as channelusername
 from config import BOT_NAME as bn, DURATION_LIMIT
 from helpers.filters import command, other_filters
 from helpers.decorators import errors, authorized_users_only
@@ -43,7 +45,7 @@ import json
 import wget
 chat_id = None
 
-JOIN_ASAP = "You need to Join @GroupMusicXNews for using me :/"           
+JOIN_ASAP = "You need to Join @{channelusername} for using me :/"           
 
 
 def cb_admin_check(func: Callable) -> Callable:
@@ -129,7 +131,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 )
 async def playlist(client, message):
     try:
-        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+        await message._client.get_chat_member(int("{channelid}"), message.from_user.id)
     except UserNotParticipant:
         await message.reply_text(JOIN_ASAP)
         return
@@ -204,7 +206,7 @@ def r_ply(type_):
 )
 async def ee(client, message):
     try:
-        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+        await message._client.get_chat_member(int("{channelid}"), message.from_user.id)
     except UserNotParticipant:
         await message.reply_text(JOIN_ASAP)
         return
@@ -223,7 +225,7 @@ async def ee(client, message):
 @authorized_users_only
 async def settings(client, message):
     try:
-        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+        await message._client.get_chat_member(int("{channelid}"), message.from_user.id)
     except UserNotParticipant:
         await message.reply_text(JOIN_ASAP)
         return
@@ -416,7 +418,7 @@ async def m_cb(b, cb):
 @Client.on_message(command("play") & other_filters)
 async def play(_, message: Message):
     try:
-        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+        await message._client.get_chat_member(int("{channelid}"), message.from_user.id)
     except UserNotParticipant:
         await message.reply_text(JOIN_ASAP)
         return
@@ -570,7 +572,7 @@ async def play(_, message: Message):
 )
 async def deezer(client: Client, message_: Message):
     try:
-        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+        await message._client.get_chat_member(int("{channelid}"), message.from_user.id)
     except UserNotParticipant:
         await message.reply_text(JOIN_ASAP)
         return
@@ -705,7 +707,7 @@ async def deezer(client: Client, message_: Message):
 )
 async def jiosaavn(client: Client, message_: Message):
     try:
-        await message._client.get_chat_member(int("-1001246827830"), message.from_user.id)
+        await message._client.get_chat_member(int("{channelid}"), message.from_user.id)
     except UserNotParticipant:
         await message.reply_text(JOIN_ASAP)
         return
