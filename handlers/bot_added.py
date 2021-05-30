@@ -10,7 +10,6 @@ async def welcome(client, message):
               InlineKeyboardButton(text="Channel🔊", url="https://t.me/GroupMusicXNews")
               ]]
           )
-      )
 
         joiner = await Client.get_me() 
         for user in message.new_chat_members:
