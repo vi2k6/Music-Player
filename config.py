@@ -30,7 +30,7 @@ API_HASH = getenv("API_HASH", "")
 
 CHANNEL_ID = int(getenv("CHANNEL_ID", "")
 
-CHANNEL_USERNAME = getenv("CHANNEL_USERNAME", "")
+CHANNEL_USERNAME = os.getenv("CHANNEL_USERNAME", "")
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "10"))
 
