@@ -11,7 +11,7 @@ admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH", "")
 
-CHANNEL_ID = os.environ("CHANNEL_ID", "")
+CHANNEL_ID = int(environ.get("CHANNEL_ID", "")
 
 CHANNEL_USERNAME = int(environ.get("CHANNEL_USERNAME", ""))
 
