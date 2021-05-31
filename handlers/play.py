@@ -23,7 +23,7 @@ import converter
 from downloaders import youtube
 import config
 
-from config import *
+from config import Config 
 from config import CHANNEL_ID as channelid
 from config import CHANNEL_USERNAME as channelusername
 from config import BOT_NAME as bn, DURATION_LIMIT
@@ -46,6 +46,9 @@ from pyrogram.errors import UserNotParticipant
 import json
 import wget
 chat_id = None
+
+channelusername = "@{}".format(Config.CHANNEL_USERNAME)
+channelid = "{}".format(Config.CHANNEL_ID)
 
 JOIN_ASAP = "You need to Join {channelusername} for using me :/"           
 
