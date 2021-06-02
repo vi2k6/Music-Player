@@ -44,12 +44,6 @@ import json
 import wget
 chat_id = None
 
-channelusername = os.environ["CHANNEL_USERNAME"]
-channelid = os.environ["CHANNEL_ID"]
-
-JOIN_ASAP = "**You need to Join {channelusername} for using me :)**"           
-
-
 def cb_admin_check(func: Callable) -> Callable:
     async def decorator(client, cb):
         admemes = a.get(cb.message.chat.id)
@@ -132,11 +126,6 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     & ~ filters.edited
 )
 async def playlist(client, message):
-    try:
-        await message._client.get_chat_member(int("{channelid}"), message.from_user.id)
-    except UserNotParticipant:
-        await message.reply_text(JOIN_ASAP)
-        return
     global que
     queue = que.get(message.chat.id)
     if not queue:
@@ -207,11 +196,6 @@ def r_ply(type_):
     & ~ filters.edited
 )
 async def ee(client, message):
-    try:
-        await message._client.get_chat_member(int("{channelid}"), message.from_user.id)
-    except UserNotParticipant:
-        await message.reply_text(JOIN_ASAP)
-        return
     queue = que.get(message.chat.id)
     stats = updated_stats(message.chat, queue)
     if stats:
@@ -226,11 +210,6 @@ async def ee(client, message):
 )
 @authorized_users_only
 async def settings(client, message):
-    try:
-        await message._client.get_chat_member(int("{channelid}"), message.from_user.id)
-    except UserNotParticipant:
-        await message.reply_text(JOIN_ASAP)
-        return
     playing = None
     if message.chat.id in callsmusic.pytgcalls.active_calls:
         playing = True
@@ -419,11 +398,6 @@ async def m_cb(b, cb):
 
 @Client.on_message(command("play") & other_filters)
 async def play(_, message: Message):
-    try:
-        await message._client.get_chat_member(int("{channelid}"), message.from_user.id)
-    except UserNotParticipant:
-        await message.reply_text(JOIN_ASAP)
-        return
     global que
     lel = await message.reply("🔄 **Processing**")
     administrators = await get_administrators(message.chat)
@@ -573,11 +547,6 @@ async def play(_, message: Message):
     & ~ filters.edited
 )
 async def deezer(client: Client, message_: Message):
-    try:
-        await message._client.get_chat_member(int("{channelid}"), message.from_user.id)
-    except UserNotParticipant:
-        await message.reply_text(JOIN_ASAP)
-        return
     global que
     lel = await message_.reply("🔄 **Processing**")
     administrators = await get_administrators(message_.chat)
@@ -708,11 +677,6 @@ async def deezer(client: Client, message_: Message):
     & ~ filters.edited
 )
 async def jiosaavn(client: Client, message_: Message):
-    try:
-        await message._client.get_chat_member(int("{channelid}"), message.from_user.id)
-    except UserNotParticipant:
-        await message.reply_text(JOIN_ASAP)
-        return
     global que
     lel = await message_.reply("🔄 **Processing**")
     administrators = await get_administrators(message_.chat)
