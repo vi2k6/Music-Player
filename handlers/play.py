@@ -23,9 +23,6 @@ import converter
 from downloaders import youtube
 import config
 
-from config import Config 
-from config import CHANNEL_ID as channelid
-from config import CHANNEL_USERNAME as channelusername
 from config import BOT_NAME as bn, DURATION_LIMIT
 from helpers.filters import command, other_filters
 from helpers.decorators import errors, authorized_users_only
@@ -47,10 +44,10 @@ import json
 import wget
 chat_id = None
 
-channelusername = "@{}".format(Config.CHANNEL_USERNAME)
-channelid = "{}".format(Config.CHANNEL_ID)
+channelusername = os.environ["CHANNEL_USERNAME"]
+channelid = os.environ["CHANNEL_ID"]
 
-JOIN_ASAP = "You need to Join {channelusername} for using me :/"           
+JOIN_ASAP = "**You need to Join {channelusername} for using me :)**"           
 
 
 def cb_admin_check(func: Callable) -> Callable:
