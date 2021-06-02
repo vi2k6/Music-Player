@@ -11,10 +11,6 @@ admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH", "")
 
-CHANNEL_ID = getenv("CHANNEL_ID", "")
-
-CHANNEL_USERNAME = getenv("CHANNEL_USERNAME", ""))
-
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "10"))
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
