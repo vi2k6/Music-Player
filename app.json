@@ -31,12 +31,8 @@
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
     },
-    "CHANNEL_USERNAME": {
-      "description": "Your Channel Username With @ For Force Sub.",
-      "required": true
-    },
-    "CHANNEL_ID": {
-      "description": "Your Channel ID For Force Sub.",
+    "BOT_USERNAME": {
+      "description": "Your Bot's Username Without @.",
       "required": true
     },
     "DURATION_LIMIT": {
