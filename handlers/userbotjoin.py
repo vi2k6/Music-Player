@@ -4,7 +4,7 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import UserAlreadyParticipant
 from helpers.decorators import errors, authorized_users_only
 
-botusername=os.environ["BOT_USERNAME"]
+botusername = os.environ["BOT_USERNAME"]
 
 @Client.on_message(filters.group & filters.command(["userbotjoin"]))
 @authorized_users_only
