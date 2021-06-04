@@ -4,6 +4,8 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import UserAlreadyParticipant
 from helpers.decorators import errors, authorized_users_only
 
+botusername=os.environ["BOT_USERNAME"]
+
 @Client.on_message(filters.group & filters.command(["userbotjoin"]))
 @authorized_users_only
 @errors
@@ -34,7 +36,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @MusicXHelper to your Group and try again</b>",
+            "\n\nOr manually add @{botusername} to your Group and try again</b>",
         )
         return
     await message.reply_text(
