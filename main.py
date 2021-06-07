@@ -17,6 +17,7 @@
 
 from pyrogram import Client as Bot
 
+from callsmusic.queues import run
 from callsmusic import run
 from config import API_ID, API_HASH, BOT_TOKEN
 
