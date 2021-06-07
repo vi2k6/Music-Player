@@ -1,10 +1,10 @@
 from callsmusic.callsmusic import client as USER
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
+import config
+from config import botusername
 from pyrogram.errors import UserAlreadyParticipant
 from helpers.decorators import errors, authorized_users_only
-
-botusername = os.environ["BOT_USERNAME"]
 
 @Client.on_message(filters.group & filters.command(["userbotjoin"]))
 @authorized_users_only
