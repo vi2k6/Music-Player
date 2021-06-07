@@ -5,11 +5,11 @@ from pyrogram.types import *
 @Client.on_message(filters.new_chat_members)
 async def welcome(client, message):
     try:
-        btns=InlineKeyboardMarkup(
+        buttons=InlineKeyboardMarkup(
               [[
               InlineKeyboardButton(text="Channel🔊", url="https://t.me/GroupMusicXNews")
               ]]
-          )
+          )     
 
         joiner = await Client.get_me() 
         for user in message.new_chat_members:
