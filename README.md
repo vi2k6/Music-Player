@@ -22,6 +22,7 @@ A bot that can play music on telegram group's voice call.Telegram bot + userbot 
 
 <a href="https://github.com/TG-MUSICS/Telegram_VC_Bot/commits/"> <img src="https://img.shields.io/github/last-commit/TG-MUSICS/TELEGRAM_VC_BOT?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
 
+<a href="https://telegram.dog/GroupMusicPlaybot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/yellow?icon=github)](https://github.com/TG-Musics/Telegram_VC_BOt)
 [![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/musicbotupports)
 [![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/musicbotupports)
@@ -29,7 +30,6 @@ A bot that can play music on telegram group's voice call.Telegram bot + userbot 
 <p align="center">
 <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/TG-MUSICS/Telegram_VC_BOT&amp;title=Profile%20Views" alt="Views">
 <a href="https://deepsource.io/gh/TG-MUSICS/Telegram_Vc_Bot/?ref=repository-badge"><img src="https://static.deepsource.io/deepsource-badge-light-mini.svg" alt="DeepSource"></a>
-<a href="https://telegram.dog/GroupMusicPlaybot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
 </p>
 
 <p align="center">
