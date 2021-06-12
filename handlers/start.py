@@ -28,6 +28,8 @@ async def start(_, message: Message):
         )
         return
     if (update.text != "/start") and (update.chat.type != "private"):
+        text = "Thanks for adding me to your Group :) \nPromote me now"
+        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton(text="Channel🔊", url="https://t.me/GroupMusicXNews")]])
         await message.reply_text(
             text=text,
             reply_markup=reply_markup,
