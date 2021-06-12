@@ -21,6 +21,11 @@ async def start(_, message: Message):
             InlineKeyboardButton("Credits ❤", url="https://telegra.ph/Group-Music-X-Bot-05-17")
             ]]
         )
+        await message.reply_text(
+            text=text,
+            reply_markup=reply_markup,
+            disable_web_page_preview=True
+        )
         return
     if (update.text != "/start") and (update.chat.type != "private"):
         await message.reply_text(
