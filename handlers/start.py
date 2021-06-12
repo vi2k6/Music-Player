@@ -6,9 +6,9 @@ from config import BOT_NAME as bn
 
 
 
-@Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start"]) & ~filters.channel)
 async def start(_, message: Message):
-    await message.reply_text(
+    if update.chat.type == "private":
         text="**Hello 👋🏻 {}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
@@ -20,9 +20,14 @@ async def start(_, message: Message):
             InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07"),
             InlineKeyboardButton("Credits ❤", url="https://telegra.ph/Group-Music-X-Bot-05-17")
             ]]
-        ),
-        disable_web_page_preview=True
-    )
+        )
+        return
+    if (update.text != "/start") and (update.chat.type != "private"):
+        await message.reply_text(
+            text=text,
+            reply_markup=reply_markup,
+            disable_web_page_preview=True
+        )
 
 @Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
