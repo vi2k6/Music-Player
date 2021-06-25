@@ -13,6 +13,8 @@ API_HASH = getenv("API_HASH", "")
 
 BOT_USERNAME = int(getenv("BOT_USERNAME"))
 
+START_IMG = int(getenv("START_IMG"))
+
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "10"))
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
