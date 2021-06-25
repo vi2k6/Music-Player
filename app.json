@@ -12,8 +12,8 @@
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather"
     },
-    "BOT_NAME": {
-      "description": "Your MusicPlayer Bot Name.",
+    "START_IMG": {
+      "description": "Telegraph Link Of An Image",
       "required": false
     },
     "API_ID": {
