@@ -23,7 +23,7 @@ import converter
 from downloaders import youtube
 import config
 
-from config import BOT_NAME as bn, DURATION_LIMIT
+from config import BOT_USERNAME as bn, DURATION_LIMIT
 from helpers.filters import command, other_filters
 from helpers.decorators import errors, authorized_users_only
 from helpers.errors import DurationLimitError
