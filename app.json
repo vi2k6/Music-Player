@@ -7,37 +7,29 @@
   "stack": "container",
   "env": {
     "SESSION_NAME": {
-      "description": "Pyrogram session string",
-      "required": true
+      "description": "Pyrogram session string"
     },
     "BOT_TOKEN": {
-      "description": "A bot token from @BotFather",
-      "required": true
+      "description": "A bot token from @BotFather"
     },
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
-      "required": false,
-      "value": ""
+      "required": false
     },
     "API_ID": {
-      "description": "App ID from my.telegram.org/apps",
-      "required": true
+      "description": "App ID from my.telegram.org/apps"
     },
     "API_HASH": {
-      "description": "App hash from my.telegram.org/apps",
-      "required": true
+      "description": "App hash from my.telegram.org/apps"
     },
     "SUDO_USERS": {
-      "description": "List of user IDs counted as admin everywhere (separated by space).",
-      "required": true
+      "description": "List of user IDs counted as admin everywhere (separated by space)."
     },
     "BOT_USERNAME": {
-      "description": "Your Bot's Username Without @.",
-      "required": true
+      "description": "Your Bot's Username Without @."
     },
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
-      "required": true,
       "value": "10"
     }
   }
