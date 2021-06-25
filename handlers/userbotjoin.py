@@ -2,7 +2,7 @@ from callsmusic.callsmusic import client as USER
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 import config
-from config import botusername
+from config import BOT_USERNAME
 from pyrogram.errors import UserAlreadyParticipant
 from helpers.decorators import errors, authorized_users_only
 
@@ -36,7 +36,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @{botusername} to your Group and try again</b>",
+            f"\n\nOr manually add @{BOT_USERNAME} to your Group and try again</b>",
         )
         return
     await message.reply_text(
