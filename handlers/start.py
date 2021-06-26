@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from config import BOT_USERNAME as bn
-from config import START_IMG as starting
+from config import START_IMG
 
 
 
@@ -10,7 +10,8 @@ from config import START_IMG as starting
 @Client.on_message(filters.command(["start"]) & ~filters.channel)
 async def start(_, message: Message):
     if update.chat.type == "private":
-        text="**Hello 👋🏻 {update.from_user.first_name}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**".format(message.from_user.mention)
+        await message.reply_photo(START_IMG,
+        caption="**👋🏻 Hello {update.from_user.first_name}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**",
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/{bn}?startgroup=true")
@@ -21,10 +22,7 @@ async def start(_, message: Message):
             InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07"),
             ]]
         )
-        await message.reply_text(
-            text=text,
-            reply_markup=reply_markup,
-            disable_web_page_preview=True
+        
 
 @Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
