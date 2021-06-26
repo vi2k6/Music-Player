@@ -11,7 +11,7 @@ admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH", "")
 
-START_IMG = getenv("START_IMG", "")
+START_IMG = getenv("START_IMG", "https://telegra.ph/file/c5f676adcdbe5a0bbb232.jpg")
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "10"))
 
