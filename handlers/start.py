@@ -24,7 +24,6 @@ async def start(_, message: Message):
         await message.reply_text(
             text=text,
             reply_markup=reply_markup,
-            await message.reply_photo(photo="{starting}"),
             disable_web_page_preview=True
 
 @Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & ~filters.private & ~filters.channel)
