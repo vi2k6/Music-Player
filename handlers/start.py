@@ -10,17 +10,19 @@ from config import START_IMG
 @Client.on_message(filters.command(["start"]) & ~filters.channel)
 async def start(_, message: Message):
     if update.chat.type == "private":
-        await message.reply_photo(START_IMG,
-        caption="**👋🏻 Hello {update.from_user.first_name}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**",
-        reply_markup=InlineKeyboardMarkup(
-            [[
-            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/{bn}?startgroup=true")
-            ],[
-            InlineKeyboardButton("💬 Group", url="https://t.me/MusicBotSupports"),
-            InlineKeyboardButton("Channel 🔊", url="https://t.me/GroupMusicXNews")
-            ],[
-            InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07"),
-            ]]
+        await message.reply_photo(
+            photo=START_IMG,
+            caption=f"**👋🏻 Hello {update.from_user.first_name}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**",
+            reply_markup=InlineKeyboardMarkup(
+                [[
+                InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/{bn}?startgroup=true")
+                ],[
+                InlineKeyboardButton("💬 Group", url="https://t.me/MusicBotSupports"),
+                InlineKeyboardButton("Channel 🔊", url="https://t.me/GroupMusicXNews")
+                ],[
+                InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07")
+                ]]
+            )
         )
         
 
