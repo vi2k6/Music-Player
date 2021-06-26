@@ -11,7 +11,7 @@ admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH", "")
 
-START_IMG = getenv("START_IMG"))
+START_IMG = getenv("START_IMG", "")
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "10"))
 
