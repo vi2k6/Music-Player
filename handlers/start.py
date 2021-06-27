@@ -19,7 +19,7 @@ async def start(_, message: Message):
             InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07")
             ]]
         )
-        await message.reply_photo(photo="{starting"}),
+        await message.reply_photo("{starting"})
         await message.reply_text(
             text=text,
             reply_markup=reply_markup,
