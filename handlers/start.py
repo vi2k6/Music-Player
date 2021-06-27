@@ -8,7 +8,7 @@ from config import START_IMG as banner
 @Client.on_message(filters.private & filters.incoming & filters.command(['start']))
 async def start(_, message: Message):
      await message.reply_photo(banner,
-        caption="**Hello 👋🏻 {message.from_user.first_name}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**",
+        caption="**👋🏻 Hello {message.from_user.first_name}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**",
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/{bn}?startgroup=true")
