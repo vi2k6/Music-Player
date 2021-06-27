@@ -2,8 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from config import BOT_USERNAME as bn
-
-
+from config import START_IMG as starting
 
 
 @Client.on_message(filters.command(["start"]) & ~filters.channel)
@@ -20,15 +19,7 @@ async def start(_, message: Message):
             InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07")
             ]]
         )
-        await message.reply_text(
-            text=text,
-            reply_markup=reply_markup,
-            disable_web_page_preview=True
-        )
-        return
-    if (update.text != "/start") and (update.chat.type != "private"):
-        text = "Thanks for adding me to your Group :) \nPromote me now"
-        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton(text="Channel🔊", url="https://t.me/GroupMusicXNews")]])
+        await message.reply_photo(photo="{starting"})
         await message.reply_text(
             text=text,
             reply_markup=reply_markup,
