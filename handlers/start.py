@@ -10,7 +10,7 @@ from config import START_IMG as starting
 @Client.on_message(filters.command(["start"]) & ~filters.channel)
 async def start(_, message: Message):
     if update.chat.type == "private":
-        text="**Hello 👋🏻 {update.from_user.first_name}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**".format(message.from_user.mention)
+        text="**Hello 👋🏻 {}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**".format(message.from_user.mention)
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/{bn}?startgroup=true")
@@ -24,7 +24,7 @@ async def start(_, message: Message):
         await message.reply_text(
             text=text,
             reply_markup=reply_markup,
-            await message.reply_photo(photo="{starting}"),
+            await message.reply_photo(photo="{starting}", caption=text.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
             disable_web_page_preview=True
 
 @Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & ~filters.private & ~filters.channel)
