@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from config import BOT_USERNAME as bn
-from config import START_IMG as starting
+from config import START_IMG as startimg
 
 
 @Client.on_message(filters.command(["start"]) & ~filters.channel)
