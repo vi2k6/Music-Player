@@ -2,7 +2,6 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from config import BOT_USERNAME as bn
-from config import START_IMG as starting
 
 
 
@@ -18,17 +17,26 @@ async def start(_, message: Message):
             InlineKeyboardButton("💬 Group", url="https://t.me/MusicBotSupports"),
             InlineKeyboardButton("Channel 🔊", url="https://t.me/GroupMusicXNews")
             ],[
-            InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07"),
+            InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07")
             ]]
         )
         await message.reply_text(
             text=text,
             reply_markup=reply_markup,
-            await message.reply_photo(photo="{starting}", caption=text.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
             disable_web_page_preview=True
+        )
+        return
+    if (update.text != "/start") and (update.chat.type != "private"):
+        text = "Thanks for adding me to your Group :) \nPromote me now"
+        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton(text="Channel🔊", url="https://t.me/GroupMusicXNews")]])
+        await message.reply_text(
+            text=text,
+            reply_markup=reply_markup,
+            disable_web_page_preview=True
+        )
 
 @Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & ~filters.private & ~filters.channel)
-async def gstart(client: Message):
+async def gstart(_, message: Message):
       await message.reply_text(
           text="**Music Bot Is Online ✅**",
           reply_markup=InlineKeyboardMarkup(
