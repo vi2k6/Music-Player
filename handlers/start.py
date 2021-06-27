@@ -28,7 +28,7 @@ async def start(_, message: Message):
             disable_web_page_preview=True
 
 @Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & ~filters.private & ~filters.channel)
-async def gstart(_, message: Message):
+async def gstart(client: Message):
       await message.reply_text(
           text="**Music Bot Is Online ✅**",
           reply_markup=InlineKeyboardMarkup(
