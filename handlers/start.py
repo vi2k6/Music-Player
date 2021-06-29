@@ -24,14 +24,14 @@ async def start(_, message: Message):
         
 @Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text(
-          text="**Music Bot Is Online ✅**",
-          reply_markup=InlineKeyboardMarkup(
-              [[
-              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/MusicBotSupports")
-              ]]
-          )
-      )
+    await message.reply_text(
+        text="**Music Bot Is Online ✅**",
+        reply_markup=InlineKeyboardMarkup(
+            [[
+            InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/MusicBotSupports")
+            ]]
+        )
+    )
 
 
 @Client.on_message(filters.command(["cmdlist", "start@GroupMusicPlayBot"]) & filters.private & ~filters.channel)
