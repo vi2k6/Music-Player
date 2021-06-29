@@ -399,7 +399,7 @@ async def m_cb(b, cb):
 @Client.on_message(command("play") & other_filters)
 async def play(_, message: Message):
     global que
-    lel = await message.reply("🔄 **Processing**")
+    lel = await message.reply("**__Processing__**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -489,16 +489,9 @@ async def play(_, message: Message):
                 
                 ],                     
                 [
-                    InlineKeyboardButton(
-                        text="Watch On YouTube 🎬",
-                        url=f"{url}")
-
-                ],
-                [       
-                    InlineKeyboardButton(
-                        text="❌ Close",
-                        callback_data='cls')
-
+                    InlineKeyboardButton('YouTube 🎬', url=f'{url}'),
+                    InlineKeyboardButton('Close 🗑', callback_data='cls')
+                
                 ]                             
             ]
         )
@@ -678,7 +671,7 @@ async def deezer(client: Client, message_: Message):
 )
 async def jiosaavn(client: Client, message_: Message):
     global que
-    lel = await message_.reply("🔄 **Processing**")
+    lel = await message_.reply("**__Processing__**")
     administrators = await get_administrators(message_.chat)
     chid = message_.chat.id
     try:
