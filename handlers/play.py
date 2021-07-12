@@ -526,7 +526,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {} via Group Music X 😜".format(
+        caption="▶️ **Playing** Here The Song Requested By {}".format(
         message.from_user.mention()
         ),
     )
@@ -541,7 +541,7 @@ async def play(_, message: Message):
 )
 async def deezer(client: Client, message_: Message):
     global que
-    lel = await message_.reply("🔄 **Processing**")
+    lel = await message_.reply("**__Processing__**")
     administrators = await get_administrators(message_.chat)
     chid = message_.chat.id
     try:
