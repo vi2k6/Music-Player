@@ -87,4 +87,12 @@ License -> https://github.com/TG-Musics/TG-VCBOT/blob/main/LICENSE
 
 ### Credits ❤
 
-**[TG MUSICS](https://github.com/TG-Musics)** ▪ **[Vivek](https://github.com/VIVEK-TP)** ▪ **[Aswin Raj](https://github.com/ASWIN-RAJ-TG)** ▪ **[Jayant Hegde Kageri](https://github.com/jayantkageri)** ▪ **[Fayas](https://github.com/FAYASNOUSHAD)** ▪ **[RabbitFoRed](https://github.com/RabbitFored)** ▪ **[Itz-Fork](https://github.com/Itz-fork)** ▪ **[HEIMAN PICTURES](https://github.com/HeimanPictures)** ▪ **[Uvindu Bro](https://github.com/UvinduBro)** ▪ **[DaisyX](https://github.com/TeamDaisyX)**
+- **[TG MUSICS](https://github.com/TG-Musics)**
+- **[Vivek](https://github.com/VIVEK-TP)**
+- **Aswin Raj**
+- **Jayant Hegde Kageri**
+- **Fayas**
+- **RabbitFoRed**
+- **Itz-Fork**
+- **Uvindu Bro**
+- **DaisyX**
