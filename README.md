@@ -8,18 +8,6 @@ A bot that can play music on telegram group's voice call.Telegram bot + userbot 
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/TG-MUSICS/Telegram_Vc_Bot/stargazers">
-    <img src="https://img.shields.io/github/stars/TG-MUSICS/Telegram_Vc_Bot?style=social">
-
-  </a>
-  
-  <a href="https://github.com/TG-MUSICS/Telegram_Vc_Bot/fork">
-    <img src="https://img.shields.io/github/forks/TG-MUSICS/Telegram_Vc_Bot?label=Fork&style=social">
-
-  </a>  
-</p>
-
 [![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/musicbotupports)
 [![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/musicbotupports)
 
@@ -35,14 +23,14 @@ A bot that can play music on telegram group's voice call.Telegram bot + userbot 
 
 **__- Thumbnail Support__**
 **__- Playlist Support__**
-- Current playback support
-- Showing track names when skipping
-- Zero downtime, Fully Stable
-- Deezer,YouTube & Saavan PlayBack Supported
-- Settings panel
-- Control with buttons
-- Userbot auto join
-- Thanks Message When Add The Bot Join On A Group
+**__- Current playback support__**
+**___- Showing track names when skipping__**
+**__- Zero downtime, Fully Stable__**
+**__- Deezer,YouTube & Saavan PlayBack Supported__**
+**__- Settings panel__**
+**__- Control with buttons__**
+**__- Userbot auto join__**
+**__- Thanks Message When Add The Bot Join On A Group__**
 
 <h3>Requirements 📝</h3>
 
