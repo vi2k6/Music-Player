@@ -8,8 +8,10 @@
   </a>
 </p>
 
+<p align="center">
 [![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/musicbotupports)
 [![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/musicbotupports)
+</p>
 
 <p align="center">
 <a href="https://github.com/TG-MUSICS/Telegram_VC_Bot/commits/"> <img src="https://img.shields.io/github/last-commit/TG-MUSICS/TELEGRAM_VC_BOT?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
@@ -36,16 +38,16 @@
 - [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
 
 ### Commands 🛠
-- `/play <song name>` - play song you requested
-- `/dplay <song name>` - play song you requested via deezer
-- `/splay <song name>` - play song you requested via jio saavn
-- `/playlist` - Show now playing list
-- `/current` - Show now playing
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
-- `/deezer <song name>` - download songs you want quickly via deezer
-- `/saavn <song name>` - download songs you want quickly via saavn
-- `/vid <song name>` - download videos you want quickly
+- `/play <song name>` - **play song you requested**
+- `/dplay <song name>` - **play song you requested via deezer**
+- `/splay <song name>` - **play song you requested via jio saavn**
+- `/playlist` - **Show now playing list**
+- `/current` - **Show now playing**
+- `/song <song name>` - **download songs you want quickly**
+- `/search <query>` - **search videos on youtube with details**
+- `/deezer <song name>` - **download songs you want quickly via deezer**
+- `/saavn <song name>` - **download songs you want quickly via saavn**
+- `/vid <song name>` - **download videos you want quickly**
 
 #### Admins only.👮🏻‍♂️
 - `/player` - **open music player settings panel**
