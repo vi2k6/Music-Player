@@ -8,10 +8,8 @@
   </a>
 </p>
 
-<p align="center">
 [![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/musicbotupports)
 [![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/musicbotupports)
-</p>
 
 <p align="center">
 <a href="https://github.com/TG-MUSICS/Telegram_VC_Bot/commits/"> <img src="https://img.shields.io/github/last-commit/TG-MUSICS/TELEGRAM_VC_BOT?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
