@@ -21,16 +21,16 @@ A bot that can play music on telegram group's voice call.Telegram bot + userbot 
 
 ### Features✨
 
-**__- Thumbnail Support__**
-**__- Playlist Support__**
-**__- Current playback support__**
-**___- Showing track names when skipping__**
-**__- Zero downtime, Fully Stable__**
-**__- Deezer,YouTube & Saavan PlayBack Supported__**
-**__- Settings panel__**
-**__- Control with buttons__**
-**__- Userbot auto join__**
-**__- Thanks Message When Add The Bot Join On A Group__**
+- *Thumbnail Support*
+- Playlist Support*
+- Current playback support*
+- Showing track names when skipping*
+- Zero downtime, Fully Stable*
+- Deezer,YouTube & Saavan PlayBack Supported*
+- Settings panel*
+- Control with buttons*
+- Userbot auto join*
+- Thanks Message When Add The Bot Join On A Group*
 
 <h3>Requirements 📝</h3>
 
