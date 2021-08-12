@@ -45,8 +45,6 @@ import json
 import wget
 chat_id = None
 
-arq = ARQ("https://thearq.tech", ARQ_API_KEY, aiohttpsession)
-
 def cb_admin_check(func: Callable) -> Callable:
     async def decorator(client, cb):
         admemes = a.get(cb.message.chat.id)
