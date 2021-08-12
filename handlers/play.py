@@ -23,6 +23,7 @@ import converter
 from downloaders import youtube
 import config
 
+from config import ARQ_API_KEY
 from config import BOT_USERNAME as bn, DURATION_LIMIT
 from helpers.filters import command, other_filters
 from helpers.decorators import errors, authorized_users_only
@@ -43,6 +44,8 @@ from pyrogram.errors import UserNotParticipant
 import json
 import wget
 chat_id = None
+
+arq = ARQ("https://thearq.tech", ARQ_API_KEY, aiohttpsession)
 
 def cb_admin_check(func: Callable) -> Callable:
     async def decorator(client, cb):
@@ -595,7 +598,7 @@ async def deezer(client: Client, message_: Message):
     res = lel
     await res.edit(f"Searching 👀👀👀 for `{queryy}` on deezer")
     try:
-        arq = ARQ("https://thearq.tech")
+        arq = ARQ("https://thearq.tech", ARQ_API_KEY, aiohttpsession)
         r = await arq.deezer(query=queryy, limit=1)
         title = r[0]["title"]
         duration = int(r[0]["duration"])
