@@ -25,6 +25,9 @@
     "SUDO_USERS": {
       "description": "List of user IDs counted as admin everywhere (separated by space)."
     },
+    "ARQ_API_KEY": {
+      "description": "Get It From @ArqRoBot"
+    },
     "BOT_USERNAME": {
       "description": "Your Bot's Username Without @."
     },
