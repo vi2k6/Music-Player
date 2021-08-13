@@ -3,6 +3,7 @@ from cache.admins import set
 from pyrogram import Client
 from pyrogram.types import Message
 from callsmusic import callsmusic
+from queues import queues
 import traceback
 import os
 import sys
@@ -23,8 +24,6 @@ async def update_admin(client, message):
         new_ads.append(u.user.id)
     a[message.chat.id] = new_ads
     await message.reply_text('Sucessfully updated admin list in **{}**'.format(message.chat.title))
-
-
 
 
 @Client.on_message(command("pause") & other_filters)
@@ -65,7 +64,7 @@ async def stop(_, message: Message):
         await message.reply_text("❗ Nothing is streaming!")
     else:
         try:
-            callsmusic.queues.clear(message.chat.id)
+            queues.clear(message.chat.id)
         except QueueEmpty:
             pass
 
@@ -81,14 +80,14 @@ async def skip(_, message: Message):
     if message.chat.id not in callsmusic.pytgcalls.active_calls:
         await message.reply_text("❗ Nothing is playing to skip!")
     else:
-        callsmusic.queues.task_done(message.chat.id)
+        queues.task_done(message.chat.id)
 
-        if callsmusic.queues.is_empty(message.chat.id):
+        if queues.is_empty(message.chat.id):
             callsmusic.pytgcalls.leave_group_call(message.chat.id)
         else:
             callsmusic.pytgcalls.change_stream(
                 message.chat.id,
-                callsmusic.queues.get(message.chat.id)["file"]
+                queues.get(message.chat.id)["file"]
             )
                 
 
