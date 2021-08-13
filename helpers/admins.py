@@ -19,12 +19,12 @@ from typing import List
 
 from pyrogram.types import Chat
 
-from cache.admins import get as gett
+from cache.admins import get as get
 from cache.admins import set
 
 
 async def get_administrators(chat: Chat) -> List[int]:
-    get = gett(chat.id)
+    get = get(chat.id)
 
     if get:
         return get
