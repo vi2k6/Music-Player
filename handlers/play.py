@@ -527,7 +527,7 @@ async def play(_, message: Message):
         appendable = [s_name, r_by, loc]      
         qeue.append(appendable)
         try:
-        callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
+            callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
         except:
             message.reply("Group Call is not connected or I can't join it")
             return
