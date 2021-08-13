@@ -1,5 +1,5 @@
 pyrogram
-tgrypto
+tgcrypto
 py-tgcalls==0.5.5
 python-dotenv
 youtube_dl
