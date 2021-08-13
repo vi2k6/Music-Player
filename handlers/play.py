@@ -228,7 +228,6 @@ async def settings(client, message):
         await message.reply('No VC instances running in this chat')
 
 @Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
-@Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
 async def p_cb(b, cb):
     global que    
     qeue = que.get(cb.message.chat.id)
@@ -372,16 +371,16 @@ async def m_cb(b, cb):
         if chat_id not in callsmusic.pytgcalls.active_calls:
             await cb.answer('Chat is not connected!', show_alert=True)
         else:
-            callsmusic.queues.task_done(chat_id)
+            queues.task_done(chat_id)
 
-            if callsmusic.queues.is_empty(chat_id):
+            if queues.is_empty(chat_id):
                 callsmusic.pytgcalls.leave_group_call(chat_id)
                 
                 await cb.message.edit('- No More Playlist..\n- Leaving VC!')
             else:
                 callsmusic.pytgcalls.change_stream(
                     chat_id,
-                    callsmusic.queues.get(chat_id)["file"]
+                    queues.get(chat_id)["file"]
                 )
                 await cb.answer('Skipped')
                 await cb.message.edit((m_chat, qeue), reply_markup=r_ply(the_data))
@@ -390,7 +389,7 @@ async def m_cb(b, cb):
     else:      
         if chat_id in callsmusic.pytgcalls.active_calls:
             try:
-                callsmusic.queues.clear(chat_id)
+                queues.clear(chat_id)
             except QueueEmpty:
                 pass
 
