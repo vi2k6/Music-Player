@@ -23,7 +23,6 @@ import converter
 from downloaders import youtube
 import config
 
-from config import ARQ_API_KEY
 from config import BOT_USERNAME as bn, DURATION_LIMIT
 from helpers.filters import command, other_filters
 from helpers.decorators import errors, authorized_users_only
@@ -39,7 +38,6 @@ from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
 from config import que
-from Python_ARQ import ARQ
 from pyrogram.errors import UserNotParticipant
 import json
 import wget
@@ -57,9 +55,14 @@ def cb_admin_check(func: Callable) -> Callable:
                                           
                                           
                                           
-                                          
 def transcode(filename):
-    ffmpeg.input(filename).output("input.raw", format='s16le', acodec='pcm_s16le', ac=2, ar='48k').overwrite_output().run() 
+    ffmpeg.input(filename).output(
+        "input.raw", 
+        format='s16le', 
+        acodec='pcm_s16le', 
+        ac=2, 
+        ar='48k'
+    ).overwrite_output().run() 
     os.remove(filename)
 
 # Convert seconds to mm:ss
@@ -119,9 +122,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     os.remove("background.png")
 
 
- 
-
-@Client.on_message(
+ @Client.on_message(
     filters.command("playlist")
     & filters.group
     & ~ filters.edited
