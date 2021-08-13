@@ -22,7 +22,7 @@
 - **Current playback support**
 - **Showing track names when skipping**
 - **Zero downtime, Fully Stable**
-- **Deezer,YouTube & Saavan PlayBack Supported**
+- **YouTube PlayBack Supported**
 - **Settings panel**
 - **Control with buttons**
 - **Userbot auto join**
@@ -37,14 +37,10 @@
 
 ### Commands 🛠
 - `/play <song name>` - **play song you requested**
-- `/dplay <song name>` - **play song you requested via deezer**
-- `/splay <song name>` - **play song you requested via jio saavn**
 - `/playlist` - **Show now playing list**
 - `/current` - **Show now playing**
 - `/song <song name>` - **download songs you want quickly**
 - `/search <query>` - **search videos on youtube with details**
-- `/deezer <song name>` - **download songs you want quickly via deezer**
-- `/saavn <song name>` - **download songs you want quickly via saavn**
 - `/vid <song name>` - **download videos you want quickly**
 
 #### Admins only.👮🏻‍♂️
@@ -91,4 +87,4 @@ License -> https://github.com/TG-Musics/TG-VCBOT/blob/main/LICENSE
 - **RabbitFoRed** (Dev)
 - **Itz-Fork** (Y)
 - **Uvindu Bro** (Helper)
-- **DaisyX** 
+- **DaisyX**
