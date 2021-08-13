@@ -228,7 +228,6 @@ async def settings(client, message):
         await message.reply('No VC instances running in this chat')
 
 @Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
-@Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
 async def p_cb(b, cb):
     global que    
     qeue = que.get(cb.message.chat.id)
