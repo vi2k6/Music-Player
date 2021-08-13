@@ -10,11 +10,6 @@ BOT_USERNAME = getenv("BOT_USERNAME", "")
 admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH", "")
-
-ARQ_API_KEY = getenv("ARQ_API_KEY", "")
-
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "10"))
-
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
-
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
