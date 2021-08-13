@@ -123,7 +123,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     os.remove("background.png")
 
 
- @Client.on_message(
+@Client.on_message(
     filters.command("playlist")
     & filters.group
     & ~ filters.edited
