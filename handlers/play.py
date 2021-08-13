@@ -228,6 +228,7 @@ async def settings(client, message):
         await message.reply('No VC instances running in this chat')
 
 @Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
+@Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
 async def p_cb(b, cb):
     global que    
     qeue = que.get(cb.message.chat.id)
@@ -512,7 +513,8 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png", 
         caption=f"#⃣ Your requested song **queued** at position {position}!",
-        reply_markup=keyboard)
+        reply_markup=keyboard,
+        )
         os.remove("final.png")
         return await lel.delete()
     else:
@@ -524,7 +526,11 @@ async def play(_, message: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]      
         qeue.append(appendable)
+        try:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
+        except:
+            message.reply("Group Call is not connected or I can't join it")
+            return
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
@@ -532,5 +538,5 @@ async def play(_, message: Message):
         message.from_user.mention()
         ),
     )
-        os.remove("final.png")
-        return await lel.delete()
+    os.remove("final.png")
+    return await lel.delete()
