@@ -10,7 +10,7 @@
 
 [![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/BotMusics)
 [![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://t.me/BotMusics)
-[![Support !](https://badgen.net/badge/Support/blue)](https://telegram.dog/BotMusics)
+[![Support !](https://badgen.net/badge/Support/Group/blue)](https://telegram.dog/BotMusics)
 
 
 <p align="center">
