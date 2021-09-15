@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-import config
+from config SESSION_NAME, BOT_TOKEN, BOT_USERNAME, API_ID, API_HASH, DURATION_LIMIT, COMMAND_PREFIXES, SUDO_USERS
 
 addbname = 'https://t.me/{}?startgroup=true'.format(Config.BOT_USERNAME[1:])
 
