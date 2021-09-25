@@ -12,8 +12,8 @@ All rights reserved.
 """
 
 print(TG)
-api_id = input("Enter Your API ID: \n")
-api_hash = input("Enter Your API HASH : \n")
+api_id = input("2937212")
+api_hash = input("1e3f553ecce52af45858cc9bf60c09f7")
 
 
 async def main():
