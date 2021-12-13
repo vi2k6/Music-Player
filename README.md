@@ -34,7 +34,7 @@
 
 - FFmpeg
 - NodeJS [nodesource.com](https://nodesource.com/)
-- Python 3.7+
+- Python 3.8+
 - [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
 
 ### Commands 🛠
