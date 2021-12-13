@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 import os
 import requests
 import aiohttp
-import youtube_dl
+import yt_dlp
 import wget
 import math
 from pyrogram import filters, Client
