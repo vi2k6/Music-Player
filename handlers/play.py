@@ -414,12 +414,14 @@ async def play(_, message: Message):
     wew = usar.id
     try:
         #chatdetails = await USER.get_chat(chid)
-        lmoa = await _.get_chat_member(chid,wew)
+        lmoa = await _.get_chat_member(chat_id,wew)
     except:
            for administrator in administrators:
                       if administrator == message.from_user.id:  
                           try:
-                              invitelink = await _.export_chat_invite_link(chid)
+                              invitelink = await _.export_chat_invite_link(chat_id)
+                            if invitelink.startswith("https://t.me/+"):
+                                invitelink = invitelink.replace("https://t.me/+","https://t.me/joinchat/")
                           except:
                               await lel.edit(
                                   "<b>Add me as admin of yor group first</b>",
