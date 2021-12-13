@@ -7,6 +7,8 @@ from queues import queues
 import traceback
 import os
 import sys
+from pytgcalls.types.input_stream import InputAudioStream
+from pytgcalls.types.input_stream import InputStream
 from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired
 from pyrogram.errors.exceptions.flood_420 import FloodWait
 from pyrogram import filters, emoji
@@ -14,6 +16,8 @@ from config import BOT_USERNAME as BN
 from helpers.filters import command, other_filters
 from helpers.decorators import errors, authorized_users_only
 from config import que, admins as a
+
+ACTV_CALLS = []
 
 @Client.on_message(filters.command('reload'))
 async def update_admin(client, message):
@@ -30,14 +34,13 @@ async def update_admin(client, message):
 @errors
 @authorized_users_only
 async def pause(_, message: Message):
-    if (
-            message.chat.id not in callsmusic.pytgcalls.active_calls
-    ) or (
-            callsmusic.pytgcalls.active_calls[message.chat.id] == 'paused'
-    ):
+    chat_id = message.chat.id
+    for x in callsmusic.pytgcalls.active_calls:
+        ACTV_CALLS(int(x.chat_id))
+    if int(chat_id) not in ACTV_CALLS:
         await message.reply_text("❗ Nothing is playing!")
     else:
-        callsmusic.pytgcalls.pause_stream(message.chat.id)
+        await callsmusic.pytgcalls.pause_stream(chat_id)
         await message.reply_text("▶️ Paused!")
 
 
@@ -45,14 +48,13 @@ async def pause(_, message: Message):
 @errors
 @authorized_users_only
 async def resume(_, message: Message):
-    if (
-            message.chat.id not in callsmusic.pytgcalls.active_calls
-    ) or (
-            callsmusic.pytgcalls.active_calls[message.chat.id] == 'playing'
-    ):
+    chat_id = message.chat.id
+    for x in callsmusic.pytgcalls.active_calls:
+        ACTV_CALLS.append(int(x.chat_id))
+    if int(chat_id) not in ACTV_CALLS:
         await message.reply_text("❗ Nothing is paused!")
     else:
-        callsmusic.pytgcalls.resume_stream(message.chat.id)
+        await callsmusic.pytgcalls.resume_stream(chat_id)
         await message.reply_text("⏸ Resumed!")
 
 
@@ -60,7 +62,10 @@ async def resume(_, message: Message):
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
-    if message.chat.id not in callsmusic.pytgcalls.active_calls:
+    chat_id = message.chat.id
+    for x in callsmusic.pytgcalls.active_calls:
+        ACTV_CALLS.append(int(x.chat_id))
+    if int(chat_id) not in ACTV_CALLS:
         await message.reply_text("❗ Nothing is streaming!")
     else:
         try:
@@ -68,7 +73,7 @@ async def stop(_, message: Message):
         except QueueEmpty:
             pass
 
-        callsmusic.pytgcalls.leave_group_call(message.chat.id)
+        await callsmusic.pytgcalls.leave_group_call(chat_id)
         await message.reply_text("❌ Stopped streaming!")
 
 
@@ -77,21 +82,28 @@ async def stop(_, message: Message):
 @authorized_users_only
 async def skip(_, message: Message):
     global que
-    if message.chat.id not in callsmusic.pytgcalls.active_calls:
+    chat_id = message.chat.id
+    for x in callsmusic.pytgcalls.active_calls:
+        ACTV_CALLS.append(int(x.chat_id))
+    if int(chat_id) not in ACTV_CALLS:
         await message.reply_text("❗ Nothing is playing to skip!")
     else:
-        queues.task_done(message.chat.id)
+        queues.task_done(chat_id)
 
-        if queues.is_empty(message.chat.id):
-            callsmusic.pytgcalls.leave_group_call(message.chat.id)
+        if queues.is_empty(chat_id):
+            await callsmusic.pytgcalls.leave_group_call(chat_id)
         else:
-            callsmusic.pytgcalls.change_stream(
-                message.chat.id,
-                queues.get(message.chat.id)["file"]
+            await callsmusic.pytgcalls.change_stream(
+                chat_id,
+                InputStream(
+                    InputAudioStream(
+                        queues.get(chat_id)["file"],
+                    ),
+                ),
             )
                 
 
-    qeue = que.get(message.chat.id)
+    qeue = que.get(chat_id)
     if qeue:
         skip = qeue.pop(0)
     if not qeue:
