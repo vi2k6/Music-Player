@@ -1,8 +1,6 @@
 pyrogram
 tgcrypto
-py-tgcalls
 python-dotenv
-yt-dlp
 youtube-search-python
 requests
 aiohttp
