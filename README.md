@@ -1,8 +1,8 @@
-## This Project Is no longer maintained this is last update we do in this repo.
-
-## Telegram Voice Chat Bot
+## Telegram Music Player Bot
 
 **A bot that can play music on telegram group's voice call.Telegram bot + userbot for streaming audio in group calls.**
+
+### ⚠️ This Project Is Now Maintained By An Bot So If You Have Any Questions/Reports Chat Us On <a href="https://t.me/DevsChats">Telegram</a>. 
 
 <p align="center">
   <a href="https://github.com/TG-Musics/TG-VCBot">
