@@ -11,12 +11,12 @@
 </p>
 
 [![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/DevsChats)
-[![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://t.me/ItsAreBots)
+[![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://t.me/Myownbots)
 [![Support !](https://badgen.net/badge/Support%20/Group/blue)](https://telegram.dog/DevsChats)
 
 
 <p align="center">
-<a href="https://github.com/vivek-tp/Vc-Player/commits/"> <img src="https://img.shields.io/github/last-commit/TG-MUSICS/TELEGRAM_VC_BOT?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
+<a href="https://github.com/vivek2k6/Vc-Player/commits/"> <img src="https://img.shields.io/github/last-commit/TG-MUSICS/TELEGRAM_VC_BOT?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
 </p>
 
 ### Features✨
