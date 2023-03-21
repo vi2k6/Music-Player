@@ -8,10 +8,6 @@
   </a>
 </p>
 
-<p align="center">
-<a href="https://github.com/vi2k6/Music-Player/commits/"> <img src="https://img.shields.io/github/last-commit/VI2k6/music-player?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
-</p>
-
 ### Features✨
 
 - **Thumbnail Support**
