@@ -2,21 +2,14 @@
 
 **A bot that can play music on telegram group's voice call.Telegram bot + userbot for streaming audio in group calls.**
 
-### ⚠️ This Project Is Now Maintained By An Bot So If You Have Any Questions/Reports Chat Us On <a href="https://t.me/DevsChats">Telegram</a>. 
-
 <p align="center">
-  <a href="https://github.com/vivek-tp/vc-player">
+  <a href="https://github.com/vi2k6/music-player">
      <img height="30px" src="https://img.shields.io/badge/VC%20Player%20Bot-black?style=for-the-badge&logo=github">
   </a>
 </p>
 
-[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/DevsChats)
-[![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://t.me/Myownbots)
-[![Support !](https://badgen.net/badge/Support%20/Group/blue)](https://telegram.dog/DevsChats)
-
-
 <p align="center">
-<a href="https://github.com/vivek2k6/VcPlayer/commits/"> <img src="https://img.shields.io/github/last-commit/vivek2k6/vcplayer?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
+<a href="https://github.com/vi2k6/Music-Player/commits/"> <img src="https://img.shields.io/github/last-commit/VI2k6/music-player?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
 </p>
 
 ### Features✨
@@ -72,7 +65,7 @@ License -> https://github.com/TG-Musics/TG-VCBOT/blob/main/LICENSE
 ### Deploy To Heroku 📡</h4>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/vivek2k6/VcPlayer">
+  <a href="https://heroku.com/deploy?template=https://github.com/vi2k6/Music-Player">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
